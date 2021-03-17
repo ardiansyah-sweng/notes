@@ -56,3 +56,5 @@ if (!preg_match("#[0-9]+#", $this->password) && !preg_match("#[A-Z]+#", $this->p
 echo 'Welcome, ' . $email;
 ...
 ```
+### Output
+> Welcome, [email]
