@@ -28,5 +28,5 @@ Langkah 2. Hitung nilai prediksi dengan memasukkan nilai `a` dan `b` pada persam
 Langkah 3. Hitung `SSE` <br>
 Langkah 4. Hitung `gradient` <br>
 Langkah 5. Hitung total `SSE`, `∂SSE/∂a`, dan `∂SSE/∂b` <br>
-Langkah 6. Update bobot `a` dan `b` dengan `gradient` hingga diperoleh `SSE` minimum
-
+Langkah 6. Update bobot `a` dan `b` dengan `gradient` hingga diperoleh `SSE` minimum <br>
+Langkah 7. Ulangi Langkah 2 s.d langkah 6 hingga `sse` sudah tidak berkurang secara signifikan
