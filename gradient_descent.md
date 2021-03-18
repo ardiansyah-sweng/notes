@@ -12,7 +12,7 @@ Tugas utama Gradient Descent (GD) adalah menemukan nilai `intercept` dan `slope`
 `Y' = a + b * X` <br>
 Dengan `Y' = nilai prediksi`, `a = intercept` dan `b = slope`
 ### Sum Square Error (SSE)
-`SSE = 0.5 * (Y - Y')^2` <br>
+`SSE = 0.5 * (Y - Y')^2` atau `0.5 * (Y - (a + b * X))^2`<br>
 Dengan `SSE = Sum Squared Error`, `Y = nilai aktual`, dan `Y' = nilai prediksi`
 ### Gradient Error
 `∂SSE/∂a = -(Y-Y')`<br>
@@ -23,3 +23,4 @@ Langkah 1. Inisialisasi nilai acak antara [0,1] untuk `intercept (a)`, dan `slop
 Langkah 2. Hitung nilai prediksi dengan memasukkan nilai `a` dan `b` pada persamaan **`regresi linear`** <br>
 Langkah 3. Hitung `SSE` <br>
 Langkah 4. Hitung `gradient` <br>
+Langkah 5. Hitung total `SSE`, `∂SSE/∂a`, dan `∂SSE/∂b` 
