@@ -30,3 +30,10 @@ Langkah 4. Hitung `gradient` <br>
 Langkah 5. Hitung total `SSE`, `∂SSE/∂a`, dan `∂SSE/∂b` <br>
 Langkah 6. Update bobot `a` dan `b` dengan `gradient` hingga diperoleh `SSE` minimum <br>
 Langkah 7. Ulangi Langkah 2 s.d langkah 6 hingga `sse` sudah tidak berkurang secara signifikan
+
+## Studi Kasus 1
+Dataset yang digunakan diambil dari publikasi [1] <br>
+`Y` = Effort Aktual, dan `X` = size atau UCP
+
+## Referensi
+[1] Ningrum, P. A. and Sholiq (2015) ‘[Penentuan Nilai Effort Rate (ER) Pada Metode Use Case Point (UCP) untuk Estimasi Effort Proyek Pengembangan Perangkat Lunak di Bidang Bisnis’, Teknik Pomits](http://digilib.its.ac.id/public/ITS-paper-34646-5209100001-Paper.pdf)
