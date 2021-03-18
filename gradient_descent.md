@@ -17,5 +17,5 @@ Dengan `SSE = Sum Squared Error`, `Y = nilai aktual`, dan `Y' = nilai prediksi`
 
 ## Langkah-Langkah
 Langkah 1. Inisialisasi nilai acak antara [0,1] untuk `intercept (a)`, dan `slope (b)` <br>
-Langkah 2. Hitung nilai prediksi dengan memasukkan ada persamaan regresi linear <br>
-Langkah 3. Hitung SSE
+Langkah 2. Hitung nilai prediksi dengan memasukkan ada persamaan **`regresi linear`** <br>
+Langkah 3. Hitung `SSE`
