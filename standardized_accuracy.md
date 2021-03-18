@@ -1,7 +1,7 @@
 # Standardized Accuracy (SA)
 ## Materi: Metodologi Penelitian Software Engineering
 * Tingkat: Menengah
-* Prasyarat: 
+* Prasyarat: `absolute error`, `mean`, `kuadrat`
 ## Deskripsi
 `MMRE` atau _Mean Magnitude Relative Error_ merupakan metrik yang sering digunakan dalam mengevaluasi performa estimasi dalam riset _software engineering_. Akan tetapi, penelitian [1] menemukan bahwa `MMRE` ternyata memiliki bias. Oleh karena itu [1] mengusulkan sebuah metrik pengganti yaitu `Standardized Accuracy (SA)`. `SA` terbukti mampu memberikan hasil yang lebih _meaningful_.
 
