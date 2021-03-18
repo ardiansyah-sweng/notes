@@ -8,8 +8,8 @@
 dengan `MAR` = rerata error absolut dari prediktor.
 
 ## Improved SA
-Diusulkan oleh [2], karena perhitungan sebelumnya bersifat stokastik dan bias. Perhitunganny menjadi: <br>
+Diusulkan oleh [2], karena perhitungan sebelumnya bersifat stokastik dan bias. Perhitungannya menjadi: <br>
 
 
 ## Referensi
-[2] Langdon, W. B. et al. (2016) ‘Exact Mean Absolute Error of Baseline Predictor, MARP0’, Information and Software Technology. Elsevier B.V., 73, pp. 16–18. doi: 10.1016/j.infsof.2016.01.003.
+[2] Langdon, W. B. et al. (2016) ‘[Exact Mean Absolute Error of Baseline Predictor, MARP0’, Information and Software Technology. Elsevier B.V., 73, pp. 16–18. doi: 10.1016/j.infsof.2016.01.003.](https://linkinghub.elsevier.com/retrieve/pii/S0950584916000057)
