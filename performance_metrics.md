@@ -1,6 +1,7 @@
-# Metrik Evaluasi Performa Estimasi Effort Perangkat Lunak
+# Standardized Accuracy (SA)
 ## Materi: Metodologi Penelitian Software Engineering
 * Tingkat: Menengah
 * Prasyarat: 
 
-## Standardized Accuracy (SA)
+## Formula
+
