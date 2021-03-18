@@ -11,9 +11,14 @@ Tugas utama Gradient Descent (GD) adalah menemukan nilai `intercept` dan `slope`
 ### Regresi linear
 `Y' = a + b * X` <br>
 Dengan `Y' = nilai prediksi`, `a = intercept` dan `b = slope`
-### Sum Square Error (SSE)
+### Nilai residual
+Ada beberapa nilai residual atau error yang bisa digunakan, antara lain:
+#### Sum Square Error (SSE)
 `SSE = 0.5 * (Y - Y')^2` atau `0.5 * (Y - (a + b * X))^2`<br>
 Dengan `SSE` = Sum Squared Error, `Y` = nilai aktual, dan `Y'` = nilai prediksi
+#### Absolute Error (AE) atau Absolute Residual (AR)
+`AE = absolute(Y - Y')` <br>
+
 ### Gradient Error
 `∂SSE/∂a = -(Y-Y')`<br>
 `∂SSE/∂b = -(Y-Y') * X`<br>
@@ -22,9 +27,10 @@ Dengan `SSE` = Sum Squared Error, `Y` = nilai aktual, dan `Y'` = nilai prediksi
 dengan `w(t+1)` = bobot baru, `r` = laju belajar (learning rate), dan `∂SSE/∂w` = gradient error  
 ### Standarisasi data
 `Standardized data [X] = X[i] - MIN(X) / (MAX[X] - MIN[X])` <br>
-dengan `standardize data [X] antara [0,1]`, `X` = data dalam satu kolom, `X[i]` = data ke-i, `MIN(X)` = nilai minimum dalam suatu kolom, `MAX(X) = nilai maksimum dalam suatu kolom
+dengan `standardize data [X] antara [0,1]`, `X` = data dalam satu kolom, `X[i]` = data ke-i, `MIN(X)` = nilai minimum dalam suatu kolom, `MAX(X)` = nilai maksimum dalam suatu kolom
 
 ## Langkah-Langkah
+Input: `Dataset (X, Y)`, `stopping criteria` <br>
 Inisialisasi parameter: `r = 0.01` <br>
 Langkah 1. Inisialisasi nilai acak antara [0,1] untuk `intercept (a)`, dan `slope (b)` <br>
 Langkah 2. Hitung nilai prediksi dengan memasukkan nilai `a` dan `b` pada persamaan **`regresi linear`** <br>
