@@ -14,8 +14,12 @@ Dengan `Y' = nilai prediksi`, `a = intercept` dan `b = slope`
 ### Sum Square Error (SSE)
 `SSE = 0.5 * (Y - Y')^2` <br>
 Dengan `SSE = Sum Squared Error`, `Y = nilai aktual`, dan `Y' = nilai prediksi`
+### Gradient Error
+`∂SSE/∂a = -(Y-Y')`<br>
+`∂SSE/∂b = -(Y-Y') * X`<br>
 
 ## Langkah-Langkah
 Langkah 1. Inisialisasi nilai acak antara [0,1] untuk `intercept (a)`, dan `slope (b)` <br>
-Langkah 2. Hitung nilai prediksi dengan memasukkan ada persamaan **`regresi linear`** <br>
-Langkah 3. Hitung `SSE`
+Langkah 2. Hitung nilai prediksi dengan memasukkan nilai `a` dan `b` pada persamaan **`regresi linear`** <br>
+Langkah 3. Hitung `SSE` <br>
+Langkah 4. Hitung `gradient` <br>
