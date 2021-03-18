@@ -8,7 +8,7 @@
 dengan `MAR` = rerata error absolut dari prediktor.
 
 ## Improved SA
-Diusulkan oleh [2], karena perhitungan sebelumnya bersifat stokastik dan bias. Perhitungannya menjadi: <br>
+Karena perhitungan sebelumnya bersifat stokastik dan bias, maka Landon [2] mengusulkan perbaikan perhitungan ![equation](https://latex.codecogs.com/gif.latex?{MAR_P_0}). Sehingga, perhitungannya menjadi: <br>
 ![equation](https://latex.codecogs.com/png.latex?MAR_P_0=\frac{2}{n^2}\sum_{i=1}^{n}\sum_{j=1}^{j<i}|y_i-y_j|)
 
 ## Referensi
