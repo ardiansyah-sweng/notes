@@ -6,7 +6,7 @@
 ## Konsep
 File merupakan salah satu objek yang sering digunakan dalam pemrograman. Ada beberapa ekstensi file yang sering dioleh misalnya `.txt`, `csv`, dan `xlsx`.
 
-## Mengapa membaca file teks?
+## Mengapa membaca file?
 Karena file menjadi salah satu format penyimpanan data, baik data `string` maupun `alfanumerik`. Kadangkala data teks juga merupakan hasil output dari sistem lain, misalnya hasil eksperimen atau sensor berbasis IoT.
 
 ## Membaca file **teks**?
