@@ -78,7 +78,7 @@ Langkah 1. Nilai awal `a = 0.16`, dan `b = 0.64` <br>
 Langkah 2. Nilai prediksi
 
 ## Unduh dataset
-[Dalam bentuk excel](https://drive.google.com/file/d/1duShydIgLG762ZaXi4zlS_HdjifhpRsL/view?usp=sharing)
+[Dalam bentuk `csv`](https://drive.google.com/file/d/1c_JTnycE15Ij33C0rwHOOKduj9RrRuqY/view?usp=sharing)
 
 ## Referensi
 [1] Ningrum, P. A. and Sholiq (2015) ‘[Penentuan Nilai Effort Rate (ER) Pada Metode Use Case Point (UCP) untuk Estimasi Effort Proyek Pengembangan Perangkat Lunak di Bidang Bisnis’, Teknik Pomits](http://digilib.its.ac.id/public/ITS-paper-34646-5209100001-Paper.pdf)
