@@ -1,7 +1,7 @@
 # Membaca File
 ## Materi: Dasar-Dasar Pemrograman Modern
 * Tingkat: Menengah
-* Prasyarat: `variabel`, `array`, `loop`
+* Prasyarat: `variabel`, `array`, `loop`, `data`
 
 ## Konsep
 File merupakan salah satu objek yang sering digunakan dalam pemrograman. Ada beberapa ekstensi file yang sering dioleh misalnya `.txt`, `csv`, dan `xlsx`.
