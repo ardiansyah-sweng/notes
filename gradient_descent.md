@@ -42,7 +42,7 @@ Langkah 7. Ulangi Langkah 2 s.d langkah 6 hingga `sse` sudah tidak lagi berkuran
 
 ## Studi Kasus 1
 Dataset yang digunakan diambil dari publikasi [1] <br>
-`Y` = Effort Aktual, dan `X` = size atau UCP
+`Y` = Effort Aktual, dan `X` = size atau UCP, dan laju belajar `r = 0.02 `
 ### Dataset
 No | Effort Aktual (Y) | Size (X) 
 ------------ | ------------- | -------------
@@ -74,8 +74,21 @@ No | Effort Aktual (Y) | Size (X)
 9 |  0.60 | 0.69
 10 |  0.00 | 0.00
 
-Langkah 1. Nilai awal `a = 0.16`, dan `b = 0.64` <br>
-Langkah 2. Nilai prediksi
+Langkah 1. Nilai awal bobot `a = 0.2`, dan `b = 0.64` yang diperoleh secara acak [0,1] <br>
+Langkah 2. Nilai prediksi (`Y'`)
+No | `Y' = a + b * X` | `SSE = 0.5 * (Y - Y')^2`
+------------ | ------------- | -------------
+1 |  0.780408122 | 0.005159193 | 
+2 |  0.279387803 | 0.011764181 |
+3 |  0.846817963 | 0.011732368 |
+4 |  0.2 | 0.004841559 |
+5 |  0.276820423 | 0.002067845 |
+6 |  0.299879782 | 0.002095779 |
+7 |  0.440530883 | 0.000235877 |
+8 |  0.34782564 | 0.000762145 |
+9 |  0.64950964 | 0.001370211 |
+10 | 0.200348755 | 0.020069812 |
+**Jumlah** | **4.321529013** | **0.06009897** |
 
 ## Unduh dataset
 [Dalam bentuk `csv`](https://drive.google.com/file/d/1c_JTnycE15Ij33C0rwHOOKduj9RrRuqY/view?usp=sharing)
