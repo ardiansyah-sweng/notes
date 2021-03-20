@@ -75,7 +75,7 @@ No | Effort Aktual (Y) | Size (X)
 10 |  0.00 | 0.00
 
 Langkah 1. Nilai awal bobot `a = 0.2`, dan `b = 0.64` yang diperoleh secara acak [0,1] <br>
-Langkah 2. Nilai prediksi (`Y'`)
+Langkah 2. Nilai prediksi (`Y'`), `SSE`, `∂SSE/∂a`, dan `∂SSE/∂b`
 No | `Y' = a + b * X` | `SSE = 0.5 * (Y - Y')^2` | `∂SSE/∂a = – (Y-Y')` | `∂SSE/∂b = – (Y-Y')X`
 ------------ | ------------- | ------------- | ------------- | -------------
 1 |  0.780408122 | 0.005159193 | 0.101579456 | 0.091150129
@@ -91,7 +91,7 @@ No | `Y' = a + b * X` | `SSE = 0.5 * (Y - Y')^2` | `∂SSE/∂a = – (Y-Y')` | 
 **Jumlah** | **4.321529013** | **0.06009897** | **0.949065314** | **0.334281702**
 
 ## Unduh dataset
-[Dalam bentuk `csv`](https://drive.google.com/file/d/1c_JTnycE15Ij33C0rwHOOKduj9RrRuqY/view?usp=sharing)
+[Dalam bentuk `txt`](https://drive.google.com/file/d/1c_JTnycE15Ij33C0rwHOOKduj9RrRuqY/view?usp=sharing)
 
 ## Referensi
 [1] Ningrum, P. A. and Sholiq (2015) ‘[Penentuan Nilai Effort Rate (ER) Pada Metode Use Case Point (UCP) untuk Estimasi Effort Proyek Pengembangan Perangkat Lunak di Bidang Bisnis’, Teknik Pomits](http://digilib.its.ac.id/public/ITS-paper-34646-5209100001-Paper.pdf)
