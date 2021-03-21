@@ -57,6 +57,8 @@ No | Effort Aktual (Y) | Size (X)
 9 |  3042 | 272.2
 10 |  1696 | 106.4
 
+![image](https://user-images.githubusercontent.com/71623245/111888856-f9355b00-8a12-11eb-8426-d5888de43462.png)
+
 ### Proses
 Data distandarkan terlebih dahulu.<br>
 `MIN(Y) = 1696`, `MAX(Y) = 3950`, `MIN(X) = 106,24`, dan `MAX(Y) = 345,03` <br>
