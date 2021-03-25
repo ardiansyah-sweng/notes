@@ -92,6 +92,14 @@ No | `Y' = a + b * X` | `SSE = 0.5 * (Y - Y')^2` | `∂SSE/∂a = – (Y-Y')` | 
 10 | 0.200348755 | 0.020069812 | 0.200348755 | 0.000108025
 **Jumlah** | **4.321529013** | **0.06009897** | **0.949065314** | **0.334281702**
 
+Langkah 3. Update bobot `a` (_intercept_) dan `b` (_slope_)<br>
+`a(t+1) = a(t) - r * ∂SSE/∂a(t)`<br>
+`a(t+1) = 0.2 - 0.02 * 0.949065314`<br>
+`a(t+1) = `<p>
+`b(t+1) = b(t) - r * ∂SSE/∂b(t)`<br>
+`b(t+1) = 0.64 - 0.02 * 0.334281702`<br>
+`b(t+1) = `<p>
+  
 ## Unduh dataset
 [Dalam bentuk `txt`](https://drive.google.com/file/d/1c_JTnycE15Ij33C0rwHOOKduj9RrRuqY/view?usp=sharing)
 
