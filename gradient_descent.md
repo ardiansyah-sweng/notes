@@ -100,6 +100,8 @@ Langkah 3. Update bobot `a` (_intercept_) dan `b` (_slope_)<br>
 `b(t+1) = 0.64 - 0.02 * 0.334281702`<br>
 `b(t+1) = 0.954281702`<p>
 Sehingga `a` dan `b` baru sekarang adalah **`0.18101869372`** dan **`0.954281702`**
+<p>
+Langkah 4. Ulangi Langkah 2 dengan menggunakan `a` dan `b` terbaru
   
 ## Unduh dataset
 [Dalam bentuk `txt`](https://drive.google.com/file/d/1c_JTnycE15Ij33C0rwHOOKduj9RrRuqY/view?usp=sharing)
