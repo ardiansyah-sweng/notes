@@ -23,6 +23,10 @@ Repeat while size(V) > 0<br>
 &nbsp;&nbsp;&nbsp;&nbsp; NextLevel &#8592; NextLevel &#8746; {C<sub>1</sub>,C<sub>2</sub>}<br>
 &nbsp;&nbsp; else<br>
 &nbsp;&nbsp;&nbsp;&nbsp; S &#8592; S &#8746; {C}<br>
+&nbsp;&nbsp; end<br>
+&nbsp;&nbsp;&nbsp;&nbsp; V &#8592; NextLevel<br>
+&nbsp;&nbsp;&nbsp;&nbsp; NextLevel &#8592; {}<br>
+end
 
 ## Dataset
 Silakan unduh [`dataset_silhavy.txt`](https://github.com/ardiansyah-sweng/ucwpso/blob/main/silhavy_dataset.txt)
