@@ -1,7 +1,9 @@
-# Bisecting k-Medoids
+# k-Medoids
 ## Materi: Machine Learning
 * Tingkat: menengah
 * Prasyarat: `clustering`, `k-Medoids`, `loop`, `array`
+
+# Bisecting k-Medoids
 ## Formula yang digunakan
 Persamaan (1)<br>
 ![equation](https://latex.codecogs.com/png.latex?variance=\frac{1}{n}\sum_{j=1,y_j\in_C_i}^{n}\big\|\big\|x_j-v_i\big\|\big\|^2) <br>
