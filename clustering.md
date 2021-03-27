@@ -1,7 +1,7 @@
 # Clustering
-## Prasyarat: `array`, `loop`
+## Prasyarat: `array`, `loop`, `jarak`
 ## Apa itu Clustering?
-Clustering adalah proses pengelompokan sebuah himpunan objek ke beberapa cluster, sedemikian sehingga objek-objek di dalam cluster yang sama memiliki kemiripan (_similarity_) satu sama lain, namun memiliki ketidakmiripan (_dissimilarity_) dengan objek-objek di cluster yang berbeda/lainnya. <br>
+Clustering adalah proses pengelompokan sebuah himpunan objek ke beberapa cluster, sedemikian sehingga objek-objek di dalam cluster yang sama memiliki kemiripan satu sama lain, namun memiliki ketidakmiripan dengan objek-objek di cluster yang berbeda/lainnya. <br>
 
 ## Model atau Jenis Clustering
 1. Connectivity. contoh: `hierarchical clustering`
@@ -14,6 +14,16 @@ Clustering adalah proses pengelompokan sebuah himpunan objek ke beberapa cluster
 6. Graph. Contoh:
 7. Signed graph. Contoh:
 8. Neural. Contoh: 
+
+### Jarak (_dissimilarity_)
+Jarak (_dissimilarity_) dan _similarity_ merupakan konstruksi dasar pembentuk _clustering_. Jika data bertipe **kuantitatif**, maka gunakan fungsi jarak untuk mengetahui hubungan antardata. Sedangkan jika data bertipe **kualitatif**, maka gunakan fungsi _similarity_.<br>
+Fungsi-Fungsi Jarak <br>
+1. Minkowski
+2. Standardized Euclidean
+3. Cosine
+4. Pearson correlation
+5. Mahalanobis
+Fungsi-Fungsi _similarity_<br>
 
 ## Mengapa Clustering?
 ## Bagaimana melakukan Clustering berbasis _centroid_?
