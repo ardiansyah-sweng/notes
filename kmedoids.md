@@ -1,7 +1,7 @@
 # k-Medoids
 ## Materi: Machine Learning
 * Tingkat: menengah
-* Prasyarat: `clustering`, `k-Medoids`, `loop`, `array`
+* Prasyarat: [`clustering`](https://github.com/ardiansyah-sweng/notes/blob/main/clustering.md), `k-Medoids`, `loop`, `array`
 
 # Bisecting k-Medoids
 ## Formula yang digunakan
