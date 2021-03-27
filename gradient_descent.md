@@ -26,7 +26,7 @@ Dengan `SSE` = Sum Squared Error, `Y` = nilai aktual, dan `Y'` = nilai prediksi
 `w(t+1) = w(t) - r * ∂SSE/∂w`<br>
 dengan: <br> 
 `w(t+1)` = bobot baru <br>
-`w(t)` = bobot saat ini atau sebelumnya <br>
+`w(t)` = bobot saat ini <br>
 `r` = laju belajar (_learning rate_) <br>
 `∂SSE/∂w` = gradient error  
 
