@@ -5,7 +5,9 @@ Clustering adalah proses pengelompokan sebuah himpunan objek ke beberapa cluster
 
 ## Model-Model Clustering
 1. Connectivity. contoh: `hierarchical clustering`
-2. Centroid. contoh: `k-means`, `k-medoids`, `k-medians`, `fuzzy c-means`
+2. Centroid. contoh: `k-means`, `k-medoids`, `k-medians`, `fuzzy c-means`.<br>
+   Cluster berbasis _centroid_ memiliki keunggulan dari sisi efisiensi, namun kelemahannya sensitif pada penentuan kondisi awal, dan pencilan (_outlier_).<br>
+   Apa itu `centroid`? Centroid adalah titik pusat dari sebuah _cluster_.
 3. Distribution. contoh: `expectation-maximization (EM)`
 4. Density: contoh: Density-based spatial clustering of applications with noise (`DBSCAN`), Ordering points to identify the clustering structure (`OPTICS`)
 5. Subspace. Contoh: `biclustering`
