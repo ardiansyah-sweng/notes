@@ -1,5 +1,5 @@
 # Clustering
-## Prasyarat: `array`, `loop`, `jarak`
+## Prasyarat: `array`, `loop`, `jarak`, `similarity`
 ## Apa itu Clustering?
 Clustering adalah proses pengelompokan sebuah himpunan objek ke beberapa cluster, sedemikian sehingga objek-objek di dalam cluster yang sama memiliki kemiripan satu sama lain, namun memiliki ketidakmiripan dengan objek-objek di cluster yang berbeda/lainnya. <br>
 
@@ -24,6 +24,8 @@ Fungsi-Fungsi Jarak <br>
 4. Pearson correlation
 5. Mahalanobis
 Fungsi-Fungsi _similarity_<br>
+1. Jaccard
+2. Hamming
 
 ## Mengapa Clustering?
 ## Bagaimana melakukan Clustering berbasis _centroid_?
