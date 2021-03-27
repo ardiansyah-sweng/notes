@@ -5,7 +5,7 @@
 
 # Bisecting k-Medoids
 ## Formula yang digunakan
-Persamaan (1)<br>
+`Persamaan (1)`<br>
 ![equation](https://latex.codecogs.com/png.latex?variance=\frac{1}{n}\sum_{j=1,y_j\in_C_i}^{n}\big\|\big\|x_j-v_i\big\|\big\|^2) <br>
 dengan:<br>
 `||.||` = jarak dalam _euclidean_. <br>
@@ -17,7 +17,7 @@ Pada algoritma _clustering_ `k-means` dan `k-medoids`, kita diminta untuk menent
 ![Bisecting k-Medoids](https://github.com/ardiansyah-sweng/notes/blob/main/method-comparison-ilustrasi-bisecting-kmedoids.svg)
 
 ## Bagaimana menerapkan k-Medoids?
-1. Hitung _variance_ _cluster_ induk (C)
+1. Hitung _variance_ _cluster_ induk (C) menggunakan `Persamaan (1)`
 2. Tentukan _centroid<sub>1</sub>_ (c<sub>1</sub>), dan _centroid<sub>2</sub>_ (c<sub>2</sub>)
 
 ## Pseudocode
