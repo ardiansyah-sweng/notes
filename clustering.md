@@ -40,3 +40,4 @@ Clustering adalah proses pengelompokan sebuah himpunan objek ke beberapa cluster
 Hopkins statistic
 
 ## Referensi
+[1] Xu, D. and Tian, Y. (2015) [‘A Comprehensive Survey of Clustering Algorithms’, Annals of Data Science. Springer Berlin Heidelberg, 2(2), pp. 165–193. doi: 10.1007/s40745-015-0040-1.](https://link.springer.com/article/10.1007/s40745-015-0040-1)
