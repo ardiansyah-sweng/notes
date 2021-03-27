@@ -3,9 +3,9 @@
 ## Apa itu Clustering?
 Clustering adalah proses pengelompokan sebuah himpunan objek ke beberapa cluster, sedemikian sehingga objek-objek di dalam cluster yang sama memiliki kemiripan (_similarity_) satu sama lain, namun memiliki ketidakmiripan (_dissimilarity_) dengan objek-objek di cluster yang berbeda/lainnya. <br>
 
-## Model-Model Clustering
+## Model atau Jenis Clustering
 1. Connectivity. contoh: `hierarchical clustering`
-2. Centroid. contoh: `k-means`, `k-medoids`, `k-medians`, `fuzzy c-means`.<br>
+2. Centroid/Partition. contoh: `k-means`, `k-medoids`, `k-medians`, `fuzzy c-means`.<br>
    Cluster berbasis _centroid_ memiliki keunggulan dari sisi efisiensi, namun kelemahannya sensitif pada penentuan kondisi awal, dan pencilan (_outlier_).<br>
    Apa itu `centroid`? Centroid adalah titik pusat dari sebuah _cluster_.
 3. Distribution. contoh: `expectation-maximization (EM)`
