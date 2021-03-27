@@ -24,7 +24,12 @@ Dengan `SSE` = Sum Squared Error, `Y` = nilai aktual, dan `Y'` = nilai prediksi
 `∂SSE/∂b = -(Y-Y') * X`<br>
 ### Update bobot
 `w(t+1) = w(t) - r * ∂SSE/∂w`<br>
-dengan `w(t+1)` = bobot baru, `r` = laju belajar (learning rate), dan `∂SSE/∂w` = gradient error  
+dengan: <br> 
+`w(t+1)` = bobot baru <br>
+`w(t)` = bobot saat ini atau sebelumnya <br>
+`r` = laju belajar (_learning rate_) <br>
+`∂SSE/∂w` = gradient error  
+
 ### Standarisasi data
 `Standardized data [X] = X[i] - MIN(X) / (MAX[X] - MIN[X])` <br>
 dengan `standardize data [X] antara [0,1]`, `X` = data dalam satu kolom, `X[i]` = data ke-i, `MIN(X)` = nilai minimum dalam suatu kolom, `MAX(X)` = nilai maksimum dalam suatu kolom
