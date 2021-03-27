@@ -23,6 +23,7 @@ Fungsi-Fungsi Jarak <br>
 3. Cosine
 4. Pearson correlation
 5. Mahalanobis
+
 Fungsi-Fungsi _similarity_<br>
 1. Jaccard
 2. Hamming
