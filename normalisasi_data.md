@@ -13,3 +13,23 @@ max(f<sub>j</sub>) = nilai **maksimum** pada kolom ke-_j_<br>
 ## Bagaimana melakukan Normalisasi data?
 Langkah 1. Tentukan nilai **minimal** dan **maksimal** setiap kolom <br>
 Langkah 2. Untuk setiap nilai dalam kolom lakukan normalisasi data seperti pada `Persamaan (1)`.
+
+### Contoh normalisasi data
+No | Y | X 
+------------ | ------------- | -------------
+1 |  3684 | 320.5
+2 |  1980 | 135.6
+3 |  3950 | 354.0
+4 |  1925 | 106.2
+5 |  2175 | 134.6
+6 |  2226 | 143.1
+7 |  2640 | 195.0
+8 |  2568 | 160.8
+9 |  3042 | 272.2
+10 |  1696 | 106.4
+
+Ada dua kolom yaitu `Y` dan `X`. Langkah pertama adalah menentukan nilai `minimum` dan `maksimum` kedua kolom tersebut. Diperoleh:<br>
+Kolom | Minimum | Maksimum 
+------------ | ------------- | -------------
+Y |  1696 | 3950
+X |  106.2 | 354.0
