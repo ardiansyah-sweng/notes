@@ -10,7 +10,7 @@
 dengan `MAR` = rerata error absolut dari prediktor.
 
 ## Improved SA
-Karena perhitungan ![equation](https://latex.codecogs.com/gif.latex?{MAR_P_0}) sebelumnya bersifat stokastik dan bias, maka [2] mengusulkan perbaikan perhitungan ![equation](https://latex.codecogs.com/gif.latex?{MAR_P_0}). Sehingga, perhitungannya menjadi: <br>
+Karena perhitungan MAR<sub>P0</sub> sebelumnya bersifat stokastik dan bias, maka [2] mengusulkan perbaikan perhitungan MAR<sub>P0</sub>. Sehingga, perhitungannya menjadi: <p>
 ![](mar_p0.svg)
 
 ## Referensi
