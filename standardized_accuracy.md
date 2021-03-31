@@ -11,7 +11,7 @@ dengan `MAR` = rerata error absolut dari prediktor.
 
 ## Improved SA
 Karena perhitungan ![equation](https://latex.codecogs.com/gif.latex?{MAR_P_0}) sebelumnya bersifat stokastik dan bias, maka [2] mengusulkan perbaikan perhitungan ![equation](https://latex.codecogs.com/gif.latex?{MAR_P_0}). Sehingga, perhitungannya menjadi: <br>
-![equation](https://latex.codecogs.com/png.latex?MAR_P_0=\frac{2}{n^2}\sum_{i=1}^{n}\sum_{j=1}^{j<i}|y_i-y_j|)
+![](<a href="https://www.codecogs.com/eqnedit.php?latex=MAR_P_0=\frac{2}{n^2}\sum_{i=1}^{n}\sum_{j=1}^{j<i}|y_i-y_j|" target="_blank"><img src="https://latex.codecogs.com/gif.latex?MAR_P_0=\frac{2}{n^2}\sum_{i=1}^{n}\sum_{j=1}^{j<i}|y_i-y_j|" title="MAR_P_0=\frac{2}{n^2}\sum_{i=1}^{n}\sum_{j=1}^{j<i}|y_i-y_j|" /></a>)
 
 ## Referensi
 [1] Shepperd, M. and MacDonell, S. (2012) ‘[Evaluating prediction systems in software project estimation’, Information and Software Technology, 54(8), pp. 820–827. doi: 10.1016/j.infsof.2011.12.008.](https://www.sciencedirect.com/science/article/pii/S095058491200002X) <br>
