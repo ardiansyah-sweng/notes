@@ -2,7 +2,7 @@
 
 ## Materi: Optimasi
 * Tingkat: Menengah
-* Prasyarat: `turunan`, `regresi linear`
+* Prasyarat: `turunan`, `regresi linear`, [`normalisasi data`](https://github.com/ardiansyah-sweng/notes/blob/main/normalisasi_data.md)
 
 ## Prinsip utama Gradient Descent
 Tugas utama Gradient Descent (GD) adalah menemukan nilai `intercept` dan `slope` yang **optimal** sehingga **error** antara nilai estimasi/prediksi dengan nilai aktual sekecil mungkin. `Slope` dan `intercept` juga sering disebut sebagai `bobot` atau `weight (w)`
@@ -65,8 +65,7 @@ No | Effort Aktual (Y) | Size (X)
 ![image](https://user-images.githubusercontent.com/71623245/111888856-f9355b00-8a12-11eb-8426-d5888de43462.png)
 
 ### Proses
-Data distandarkan terlebih dahulu.<br>
-`MIN(Y) = 1696`, `MAX(Y) = 3950`, `MIN(X) = 106,24`, dan `MAX(Y) = 345,03` <br>
+Data dinormalisasi terlebih dahulu.<br>
 Hasil standarisasi data <br>
 No | Effort Aktual (Y) | Size (X) 
 ------------ | ------------- | -------------
