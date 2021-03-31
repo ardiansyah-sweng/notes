@@ -9,6 +9,7 @@ x<sub>ij</sub> = nilai date ke-_i_ pada kolom ke-_j_ yang hendak dinormalisasi<b
 min(f<sub>j</sub>) = nilai **minimum** pada kolom ke-_j_<br>
 max(f<sub>j</sub>) = nilai **maksimum** pada kolom ke-_j_<br>
 ## Apa itu Normalisasi data?
+Proses mengubah skala nilai data ke dalam rentang antara 0 hingga 1.
 ## Mengapa Normalisasi data?
 ## Bagaimana melakukan Normalisasi data?
 Langkah 1. Tentukan nilai **minimal** dan **maksimal** setiap kolom <br>
