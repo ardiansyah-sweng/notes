@@ -12,7 +12,7 @@ Karena perhitungan MAR<sub>P0</sub> sebelumnya bersifat stokastik dan bias, maka
   
 ## Mengapa menggunakan Standardized Accuracy?
 ## Bagaimana menghitung Standardized Accuracy?
-
+## Interpretasi SA
 
 ## Referensi
 [1] Shepperd, M. and MacDonell, S. (2012) ‘[Evaluating prediction systems in software project estimation’, Information and Software Technology, 54(8), pp. 820–827. doi: 10.1016/j.infsof.2011.12.008.](https://www.sciencedirect.com/science/article/pii/S095058491200002X) <br>
