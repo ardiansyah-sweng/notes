@@ -30,10 +30,6 @@ dengan: <br>
 `r` = laju belajar (_learning rate_) <br>
 `∂SSE/∂w` = gradient error  
 
-### Standarisasi data
-`Standardized data [X] = X[i] - MIN(X) / (MAX[X] - MIN[X])` <br>
-dengan `standardize data [X] antara [0,1]`, `X` = data dalam satu kolom, `X[i]` = data ke-i, `MIN(X)` = nilai minimum dalam suatu kolom, `MAX(X)` = nilai maksimum dalam suatu kolom
-
 ## Langkah-Langkah
 Input: `Dataset (X, Y)`, `stopping criteria` <br>
 Inisialisasi parameter: `r = 0.01` <br>
@@ -65,8 +61,7 @@ No | Effort Aktual (Y) | Size (X)
 ![image](https://user-images.githubusercontent.com/71623245/111888856-f9355b00-8a12-11eb-8426-d5888de43462.png)
 
 ### Proses
-Data dinormalisasi terlebih dahulu.<br>
-Hasil standarisasi data <br>
+Data dinormalisasi terlebih dahulu, sehingga menjadi:<br>
 No | Effort Aktual (Y) | Size (X) 
 ------------ | ------------- | -------------
 1 |  0.88 | 0.9
