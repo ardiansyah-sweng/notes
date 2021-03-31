@@ -6,7 +6,7 @@
 `MMRE` atau _Mean Magnitude Relative Error_ merupakan metrik yang sering digunakan dalam mengevaluasi performa estimasi dalam riset _software engineering_. Akan tetapi, penelitian [1] menemukan bahwa `MMRE` ternyata memiliki bias. Oleh karena itu [1] mengusulkan sebuah metrik pengganti yaitu `Standardized Accuracy (SA)`. `SA` terbukti mampu memberikan hasil yang lebih _meaningful_.
 
 ## Formula
-<a href="https://www.codecogs.com/eqnedit.php?latex=$Standardized&space;Accuracy$=1-\frac{MAR}{MAR_P_0}*100" target="_blank"><img src="https://latex.codecogs.com/svg.latex?$Standardized&space;Accuracy$=1-\frac{MAR}{MAR_P_0}*100" title="$Standardized Accuracy$=1-\frac{MAR}{MAR_P_0}*100" /></a> <br>
+<a href="https://www.codecogs.com/eqnedit.php?latex=SA=1-\frac{MAR}{MAR_P_0}*100" target="_blank"><img src="https://latex.codecogs.com/svg.latex?SA=1-\frac{MAR}{MAR_P_0}*100" title="SA=1-\frac{MAR}{MAR_P_0}*100" /></a><br>
 dengan `MAR` = rerata error absolut dari prediktor.
 
 ## Improved SA
