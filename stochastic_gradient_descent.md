@@ -64,7 +64,7 @@ No | Size (X) | Effort Aktual (Y)
 10 |  0.00054441140751292 | 0.00
 
 Karena ada 10 objek data, maka kita akan mengoptimasi objek data tersebut satu per satu.<br>
-### Objek data ke-1 
+#### Objek data ke-1 
 `X = 0.89731563298296`, `Y = 0.88198757763975`. Kita akan mencoba memprediksi nilai `Y'` hingga mencapai nilai paling terdekat. Percobaan prediksi ini kita lakukan secara iterasi dengan mengoptimasi nilai `intercept` dan `slope`.<p> 
 
 **Iterasi ke-0** <br>
@@ -153,7 +153,7 @@ Iterasi ke- | a | b | Y Normalized | Y' Normalized | Y Original | Error original
 Dapat kita lihat bahwa pada iterasi ke-25, `Y' = 0.88151336613848` dengan error = `-0.0004742115012718`, atau setelah kita denormalisasi (dikembalikan ke nilai asli) maka `Y' = 3682.4591719613` dengan selisih atau error = `1.540828038741`. <br>
 Perhatikan penurunan tingkat `error` yang semakin mengecil di setiap iterasinya, menunjukkan semakin dekat antara nilai `Y aktual` dengan `Y prediksi`.
 
-### Objek data ke-2 s.d 10
+#### Objek data ke-2 s.d 10
 Ulangi prosesnya sama persis seperti pada proses estimasi/prediksi untuk **Objek data ke-1**
 
 ## Unduh dataset
