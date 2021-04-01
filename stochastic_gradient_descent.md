@@ -9,7 +9,8 @@ Tugas utama Stochastic Gradient Descent (SGD) adalah menemukan nilai `intercept`
 
 ## Formula yang digunakan
 ### Regresi linear
-`Y' = a + b * X` <br>
+<a href="https://www.codecogs.com/eqnedit.php?latex=Y'&space;=&space;a&plus;b.X" target="_blank"><img src="https://latex.codecogs.com/svg.latex?Y'&space;=&space;a&plus;b.X" title="Y' = a+b.X" /></a>` 
+<br>
 Dengan `Y' = nilai prediksi`, `a = intercept` dan `b = slope`
 ### Nilai residual
 Ada beberapa nilai residual atau error yang bisa digunakan, antara lain:
@@ -63,7 +64,7 @@ No | Size (X) | Effort Aktual (Y)
 9 |  0.69496210059048 | 0.59716060337178
 10 |  0.00054441140751292 | 0.00
 
-Karena ada 10 objek data, maka kita akan mengoptimasi objek data tersebut satu per satu.<br>
+Karena ada 10 objek data, maka kita akan memprediksi objek data (`Y'`) tersebut satu per satu.<br>
 #### Objek data ke-1 
 `X = 0.89731563298296` `Y = 0.88198757763975`. <br>
 Kita akan mencoba memprediksi nilai `Y'` hingga mencapai nilai paling terdekat. Percobaan prediksi ini kita lakukan secara iterasi dengan mengoptimasi nilai `intercept` dan `slope`.<p> 
