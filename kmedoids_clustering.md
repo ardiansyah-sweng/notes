@@ -6,7 +6,8 @@
 # Bisecting k-Medoids
 ## Formula yang digunakan
 `Persamaan (1)` <br>
-![equation](https://latex.codecogs.com/png.latex?variance=\frac{1}{n}\sum_{j=1,y_j\in_C_i}^{n}\big\|\big\|x_j-v_i\big\|\big\|^2) <br>
+<a href="https://www.codecogs.com/eqnedit.php?latex=variance&space;=&space;\frac{1}{n}&space;\sum_{j=1,y_j\in&space;C_i}{\left&space;|&space;\right&space;|x_j-v_i\left&space;|&space;\right&space;|^2}{}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?variance&space;=&space;\frac{1}{n}&space;\sum_{j=1,y_j\in&space;C_i}{\left&space;|&space;\right&space;|x_j-v_i\left&space;|&space;\right&space;|^2}{}" title="variance = \frac{1}{n} \sum_{j=1,y_j\in C_i}{\left | \right |x_j-v_i\left | \right |^2}{}" /></a>
+
 dengan:<br>
 `||.||` = jarak dalam _euclidean_. <br>
 _x_<sub>j</sub> = objek data ke-_j_ <br>
