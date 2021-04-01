@@ -64,7 +64,8 @@ No | Size (X) | Effort Aktual (Y)
 10 |  0.00054441140751292 | 0.00
 
 Karena ada 10 objek data, maka kita akan mengoptimasi objek data tersebut satu per satu.<br>
-Objek data ke-1. `X = 0.89731563298296`, `Y = 0.88198757763975`. Kita akan mencoba memprediksi nilai `Y'` hingga mencapai nilai paling terdekat. Percobaan prediksi ini kita lakukan secara iterasi dengan mengoptimasi nilai `intercept` dan `slope`.<p> 
+### Objek data ke-1 
+`X = 0.89731563298296`, `Y = 0.88198757763975`. Kita akan mencoba memprediksi nilai `Y'` hingga mencapai nilai paling terdekat. Percobaan prediksi ini kita lakukan secara iterasi dengan mengoptimasi nilai `intercept` dan `slope`.<p> 
 
 **Iterasi ke-0** <br>
 Langkah 1. Nilai awal bobot `a = 0.057883622617407`, dan `b = 0.84175627019338` yang diperoleh secara acak [0,1] <br>
