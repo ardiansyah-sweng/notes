@@ -72,15 +72,13 @@ Langkah 2. Nilai prediksi `Y'`.<br>
 Langkah 3. Hitung `error` prediksi.<br>
 `error = 0.776 - 0.88 = -0.104`. <br>
 Langkah 4. Update bobot `a` (_intercept_) dan `b` (_slope_)<br>
-`a(t+1) = a(t) - r * ∂SSE/∂a(t)`<br>
-`a(t+1) = 0.2 - 0.01 * 0.949065314`<br>
-`a(t+1) = 0.18101869372`<p>
-`b(t+1) = b(t) - r * ∂SSE/∂b(t)`<br>
-`b(t+1) = 0.64 - 0.01 * 0.334281702`<br>
-`b(t+1) = 0.954281702`<p>
-Sehingga `a` dan `b` baru sekarang adalah **`0.18101869372`** dan **`0.954281702`**
+`a(t+1) = a(t) - r * error`<br>
+`a(t+1) = 0.2 - 0.01 * (-0.104) = 0.20104`<br>
+`b(t+1) = b(t) - r * error`<br>
+`b(t+1) = 0.64 - 0.01 * (-0.104) = 0,63896`<br>
+Sehingga `a` dan `b` baru sekarang adalah **`0.20104`** dan **`0,63896`**
 <p>
-Langkah 4. Ulangi Langkah 2 dengan menggunakan `a` dan `b` terbaru
+Langkah 4. Ulangi Langkah 2-4 dengan menggunakan `a` dan `b` terbaru sebanyak 20 kali iterasi.
   
 ## Unduh dataset
 [Dalam bentuk `txt`](https://drive.google.com/file/d/1c_JTnycE15Ij33C0rwHOOKduj9RrRuqY/view?usp=sharing)
