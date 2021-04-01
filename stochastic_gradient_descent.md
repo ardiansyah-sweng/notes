@@ -83,7 +83,7 @@ Kita akan mencoba memprediksi nilai `Y'` hingga mencapai nilai paling terdekat. 
 Langkah 1. Nilai bobot awal `a = 0.057883622617407`, dan `b = 0.84175627019338` yang diperoleh secara acak [0,1] <br>
 Langkah 2. Nilai prediksi `Y'`.<br>
 `Y' = 0.057883622617407 + 0.84175627019338 * 0.89731563298296` <br>
-`Y = 0.81320468302335` <br>
+`Y' = 0.81320468302335` <br>
 Langkah 3. Hitung `error` prediksi.<br>
 `error = 0,813204683023356 - 0,88198757763975 = ` <br>
 `error = -0.068782894616399`. <br>
