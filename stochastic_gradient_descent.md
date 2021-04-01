@@ -119,7 +119,7 @@ Iterasi ke- | Error
 2 | -0.04619125682641
 <p>
   
-Langkah 4. Ulangi Langkah 2-4 dengan menggunakan `a` dan `b` terbaru sebanyak 25 kali iterasi, hingga diperoleh hasil lengkap berikut:<br>
+Langkah 4. Ulangi Langkah 2-4 dengan menggunakan `a` dan `b` terbaru sebanyak 25 kali iterasi, hingga diperoleh hasil lengkap pada tabel berikut:<br>
 
 Iterasi ke- | a | b | Y Normalized | Y' Normalized | Y Original | Error original | Error normalized
 ------------ | -------------| -------------| -------------| -------------| -------------| -------------| -------------
@@ -149,6 +149,9 @@ Iterasi ke- | a | b | Y Normalized | Y' Normalized | Y Original | Error original
 23 | 0.095595610898758 | 0.87559582682911 | 0.88198757763975 | 0.88128143448715 | 3681.7055698439 | 2.2944301561006 | -0.00070614315259787
 24 | 0.095666225214018 | 0.8756591901581 | 0.88198757763975 | 0.88140890570808 | 3682.1197547188 | 1.8802452811938 | -0.00057867193167294
 25 | 0.095724092407185 | 0.87571111529517 | 0.88198757763975 | 0.88151336613848 | 3682.4591719613 | 1.540828038741 | -0.0004742115012718
+
+Dapat kita lihat bahwa pada iterasi ke-25, `Y' = 0.88151336613848` dengan error = `-0.0004742115012718`, atau setelah kita denormalisasi (dikembalikan ke nilai asli) maka `Y' = 3682.4591719613` dengan selisih atau error = `1.540828038741`. <br>
+Perhatikan penurunan tingkat `error` yang semakin mengecil di setiap iterasinya, menunjukkan semakin dekat antara nilai `Y aktual` dengan `Y prediksi`.
 
 ## Unduh dataset
 [Dalam bentuk `txt`](https://drive.google.com/file/d/1c_JTnycE15Ij33C0rwHOOKduj9RrRuqY/view?usp=sharing)
