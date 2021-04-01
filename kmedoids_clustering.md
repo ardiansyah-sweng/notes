@@ -11,7 +11,8 @@
 dengan:<br>
 `||.||` = jarak dalam _euclidean_. <br>
 _x_<sub>j</sub> = objek data ke-_j_ <br>
-_v_<sub>i</sub> = pusat _cluster_ ke-_i_ (_C_<sub>i</sub>)
+_v_<sub>i</sub> = pusat _cluster_ ke-_i_ (_C_<sub>i</sub>) <br>
+_n_ = jumlah data
 
 ## Mengapa `bisecting k-Medoids`?
 Pada algoritma _clustering_ `k-means` dan `k-medoids`, kita diminta untuk menentukan jumlah _cluster_ di awal. Penentuan jumlah _cluster_ dilakukan secara acak/menebak atau menggunakan indeks validitas _clustering_. Kedua teknik tersebut tidak selalu menghasilkan jumlah _cluster_ yang optimal. Untuk mengatasi masalah tersebut, maka digunakanlah prosedur `bisecting` pada `k-medoids`. Pada gambar berikut ditunjukkan ilustrasi bagaimana pembentukan _cluster_ pada algoritma _bisecting_ `k-medoids`.<p>
