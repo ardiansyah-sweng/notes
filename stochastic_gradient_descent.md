@@ -98,23 +98,25 @@ Iterasi ke- | Error) | Perubahan (%)
 0 |  -0.068782894616399 | 0
 1 |  -0.056366376063128 | 0
 <p>
+  
 **Iterasi ke-2** <br>
-Langkah 1. Nilai bobot iterasi ke-0 `a = 0.064761912079046`, dan `b = 0.84792826685549` <br>
+Langkah 1. Nilai bobot iterasi ke-0 `a = 0.070398549685359`, dan `b = 0.8529861098971` <br>
 Langkah 2. Nilai prediksi `Y'`.<br>
-`Y' = 0.064761912079046 + 0.84792826685549 * 0.89731563298296 = 0.82562120157662` <br>
+`Y' = 0.070398549685359 + 0.8529861098971 * 0.89731563298296 = 0.83579632081334` <br>
 Langkah 3. Hitung `error` prediksi.<br>
-`error = 0.82562120157662 - 0.88198757763975 = -0.056366376063128`. <br>
+`error = 0.83579632081334 - 0.88198757763975 = -0.04619125682641`. <br>
 Langkah 4. Update bobot `a` (_intercept_) dan `b` (_slope_)<br>
 `a(t+1) = a(t) - r * error`<br>
-`a(t+1) = 0.064761912079046 - 0.01 * (-0.056366376063128) = 0.070398549685359`<br>
+`a(t+1) = 0.070398549685359 - 0.01 * (-0.04619125682641) = 0.070398549685359`<br>
 `b(t+1) = b(t) - r * error`<br>
-`b(t+1) = 0.84792826685549 - 0.01 * (-0.056366376063128) = 0.8529861098971`<br>
-Sehingga `a` dan `b` baru sekarang adalah **`0.070398549685359`** dan **`0.8529861098971`**.<br>
+`b(t+1) = 0.8529861098971 - 0.01 * (-0.04619125682641) = 0.8529861098971`<br>
+Sehingga `a` dan `b` baru sekarang adalah **`0.075017675368`** dan **`0.85713092358284`**.<br>
 Perubahan error:<br>
 Iterasi ke- | Error) | Perubahan (%) 
 ------------ | ------------- | -------------
 0 |  -0.068782894616399 | 0
 1 |  -0.056366376063128 | 0
+2 | -0.04619125682641 | 0
 
 
 Langkah 4. Ulangi Langkah 2-4 dengan menggunakan `a` dan `b` terbaru sebanyak 20 kali iterasi.
