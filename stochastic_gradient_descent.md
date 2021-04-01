@@ -12,7 +12,7 @@ Tugas utama Stochastic Gradient Descent (SGD) adalah menemukan nilai `intercept`
 <a href="https://www.codecogs.com/eqnedit.php?latex=Y'&space;=&space;a&plus;b.X" target="_blank"><img src="https://latex.codecogs.com/svg.latex?Y'&space;=&space;a&plus;b.X" title="Y' = a+b.X" /></a>` 
 
 dengan: <br>
-`Y' = nilai prediksi`<br>
+`Y' = nilai prediksi` <br>
 `a = intercept` <br>
 `b = slope` <br>
 `X = variabel bebas`
@@ -23,7 +23,7 @@ Ada beberapa nilai residual atau error yang bisa digunakan, antara lain:
 <a href="https://www.codecogs.com/eqnedit.php?latex=SSE&space;=&space;0.5&space;(Y-Y')^2" target="_blank"><img src="https://latex.codecogs.com/svg.latex?SSE&space;=&space;0.5&space;(Y-Y')^2" title="SSE = 0.5 (Y-Y')^2" /></a> atau <a href="https://www.codecogs.com/eqnedit.php?latex=SSE&space;=&space;0.5&space;(Y-(a&plus;b.X))^2" target="_blank"><img src="https://latex.codecogs.com/svg.latex?SSE&space;=&space;0.5&space;(Y-(a&plus;b.X))^2" title="SSE = 0.5 (Y-(a+b.X))^2" /></a>
 
 dengan: <br>
-`SSE = Sum Squared Error' <br>
+`SSE = Sum Squared Error` <br>
 `Y = nilai aktual` <br>
 `Y' = nilai prediksi`
 
