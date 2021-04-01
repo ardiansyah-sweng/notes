@@ -79,6 +79,7 @@ Langkah 4. Update bobot `a` (_intercept_) dan `b` (_slope_)<br>
 `b(t+1) = 0.84175627019338 - 0.01 * (-0.06878289461639) = 0.84792826685549`<br>
 Sehingga `a` dan `b` baru sekarang adalah **`0.064761912079046`** dan **`0.84792826685549`**
 <p>
+  
 **Iterasi ke-1** <br>
 Langkah 1. Nilai bobot iterasi ke-0 `a = 0.064761912079046`, dan `b = 0.84792826685549` <br>
 Langkah 2. Nilai prediksi `Y'`.<br>
