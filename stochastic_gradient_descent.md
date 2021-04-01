@@ -29,16 +29,16 @@ dengan: <br>
 
 #### Absolute Error (AE) atau Absolute Residual (AR)
 `AE = absolute(Y - Y')` <br>
-### Gradient Error
-`∂SSE/∂a = -(Y-Y')`<br>
-`∂SSE/∂b = -(Y-Y') * X`<br>
+### Error
+`error = Y' - Y`
+
 ### Update bobot
 <a href="https://www.codecogs.com/eqnedit.php?latex=w(t&plus;1)&space;=&space;w(t)-r.error" target="_blank"><img src="https://latex.codecogs.com/svg.latex?w(t&plus;1)&space;=&space;w(t)-r.error" title="w(t+1) = w(t)-r.error" /></a>
 
 dengan: <br> 
 `w(t+1) = bobot baru` <br>
 `w(t) = bobot saat ini` <br>
-`r = laju belajar` (_learning rate_) <br>
+`r = laju belajar` `(`_`learning rate`_`)` <br>
 
 ## Studi Kasus 1
 Dataset yang digunakan diambil dari publikasi [1] <br>
