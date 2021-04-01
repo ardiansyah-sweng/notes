@@ -24,7 +24,7 @@ Ada beberapa nilai residual atau error yang bisa digunakan, antara lain:
 
 dengan: <br>
 `SSE = Sum Squared Error' <br>
-`Y = nilai aktual' <br>
+`Y = nilai aktual` <br>
 `Y' = nilai prediksi`
 
 #### Absolute Error (AE) atau Absolute Residual (AR)
