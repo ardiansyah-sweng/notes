@@ -121,7 +121,6 @@ Iterasi ke- | Error
 <p>
   
 Langkah 4. Ulangi Langkah 2-4 dengan menggunakan `a` dan `b` terbaru sebanyak 25 kali iterasi, hingga diperoleh hasil lengkap pada tabel berikut:<br>
-
 Iterasi ke- | a | b | Y Normalized | Y' Normalized | Y Original | Error original | Error normalized
 ------------ | -------------| -------------| -------------| -------------| -------------| -------------| -------------
 0 | 0.057883622617407 | 0.84175627019338 | 0.88198757763975 | 0.81320468302335 | 3460.5077136964 | 223.49228630365 | -0.068782894616399
@@ -153,6 +152,9 @@ Iterasi ke- | a | b | Y Normalized | Y' Normalized | Y Original | Error original
 
 Dapat kita lihat bahwa pada iterasi ke-25, `Y' = 0.88151336613848` dengan error = `-0.0004742115012718`, atau setelah kita denormalisasi (dikembalikan ke nilai asli) maka `Y' = 3682.4591719613` dengan selisih atau error = `1.540828038741`. <br>
 Perhatikan penurunan tingkat `error` yang semakin mengecil di setiap iterasinya, menunjukkan semakin dekat antara nilai `Y aktual` dengan `Y prediksi`.
+
+### Objek data ke-2 s.d 10
+Ulangi prosesnya sama persis seperti pada proses estimasi/prediksi untuk **Objek data ke-1**
 
 ## Unduh dataset
 [Dalam bentuk `txt`](https://drive.google.com/file/d/1c_JTnycE15Ij33C0rwHOOKduj9RrRuqY/view?usp=sharing)
