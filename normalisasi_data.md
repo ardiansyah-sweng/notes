@@ -6,8 +6,8 @@ Persamaan (1) <br>
 dengan:<br>
 C<sub>ij</sub> = nilai data ke-_i_ pada kolom ke-_j_ yang sudah dinormalisasi<br>
 x<sub>ij</sub> = nilai date ke-_i_ pada kolom ke-_j_ yang hendak dinormalisasi<br>
-min(f<sub>j</sub>) = nilai **minimum** pada kolom ke-_j_<br>
-max(f<sub>j</sub>) = nilai **maksimum** pada kolom ke-_j_<br>
+min(x<sub>j</sub>) = nilai **minimum** pada kolom ke-_j_<br>
+max(x<sub>j</sub>) = nilai **maksimum** pada kolom ke-_j_<br>
 ## Apa itu Normalisasi data?
 Proses mengubah skala nilai data ke dalam rentang antara 0 hingga 1.
 ## Mengapa Normalisasi data?
