@@ -33,51 +33,89 @@ dengan: <br>
 Dataset yang digunakan diambil dari publikasi [1] <br>
 `Y` = Effort Aktual, dan `X` = size atau UCP, dan laju belajar `r = 0.01 `
 ### Dataset
-No | Effort Aktual (Y) | Size (X) 
+No | Sizel (X) | Effort Aktual (Y) 
 ------------ | ------------- | -------------
-1 |  3684 | 320.5
-2 |  1980 | 135.6
-3 |  3950 | 354.0
-4 |  1925 | 106.2
-5 |  2175 | 134.6
-6 |  2226 | 143.1
-7 |  2640 | 195.0
-8 |  2568 | 160.8
-9 |  3042 | 272.2
-10 |  1696 | 106.4
+1 |  320.5 | 3684
+2 |  135.6 | 1980
+3 |  354.0 | 3950
+4 |  106.2 | 1925 
+5 |  134.6 | 2175
+6 |  143.1 | 2226
+7 |  195.0 | 2640
+8 |  160.8 | 2568
+9 |  272.2 | 3042
+10 | 106.4 | 1696
 
 ![image](https://user-images.githubusercontent.com/71623245/111888856-f9355b00-8a12-11eb-8426-d5888de43462.png)
 
 ### Proses
 Data dinormalisasi terlebih dahulu, sehingga menjadi:<br>
-No | Effort Aktual (Y) | Size (X) 
+No | Size (X) | Effort Aktual (Y) 
 ------------ | ------------- | -------------
-1 |  0.88 | 0.9
-2 |  0.13 | 0.12
+1 |  0.89731563298296 | 0.88198757763975
+2 |  0.12274383349386 | 0.12599822537711
 3 |  1.00 | 1.0
-4 |  0.10 | 0.0
-5 |  0.21 | 0.12
-6 |  0.24 | 0.15
-7 |  0.42 | 0.37
-8 |  0.39 | 0.23
-9 |  0.60 | 0.69
-10 |  0.00 | 0.00
+4 |  0.0 | 0.10159716060337
+5 |  0.11876544243896 | 0.21251109139308
+6 |  0.15444532853135 | 0.23513753327418
+7 |  0.37187486913187 | 0.41881100266193
+8 |  0.22856903555425 | 0.3868677905945 
+9 |  0.69496210059048 | 0.59716060337178
+10 |  0.00054441140751292 | 0.00
 
 Karena ada 10 objek data, maka kita akan mengoptimasi objek data tersebut satu per satu.<br>
-Objek data ke-1. `X = 0.9`, `Y = 0.88`. Kita akan mencoba memprediksi nilai `Y'` hingga mencapai nilai paling terdekat. Percobaan prediksi ini kita lakukan secara iterasi dengan mengoptimasi nilai `intercept` dan `slope`.<p> 
+Objek data ke-1. `X = 0.89731563298296`, `Y = 0.88198757763975`. Kita akan mencoba memprediksi nilai `Y'` hingga mencapai nilai paling terdekat. Percobaan prediksi ini kita lakukan secara iterasi dengan mengoptimasi nilai `intercept` dan `slope`.<p> 
 
-Langkah 1. Nilai awal bobot `a = 0.2`, dan `b = 0.64` yang diperoleh secara acak [0,1] <br>
+**Iterasi ke-0** <br>
+Langkah 1. Nilai awal bobot `a = 0.057883622617407`, dan `b = 0.84175627019338` yang diperoleh secara acak [0,1] <br>
 Langkah 2. Nilai prediksi `Y'`.<br>
-`Y' = 0.2 + 0.64 * 0.9 = 0.776` <br>
+`Y' = 0.057883622617407 + 0.84175627019338 * 0.89731563298296 = 0.81320468302335` <br>
 Langkah 3. Hitung `error` prediksi.<br>
-`error = 0.776 - 0.88 = -0.104`. <br>
+`error = 0,813204683023356 - 0,88198757763975 = -0.068782894616399`. <br>
 Langkah 4. Update bobot `a` (_intercept_) dan `b` (_slope_)<br>
 `a(t+1) = a(t) - r * error`<br>
-`a(t+1) = 0.2 - 0.01 * (-0.104) = 0.20104`<br>
+`a(t+1) = 0.057883622617407 - 0.01 * (-0.06878289461639) = 0.064761912079046`<br>
 `b(t+1) = b(t) - r * error`<br>
-`b(t+1) = 0.64 - 0.01 * (-0.104) = 0,63896`<br>
-Sehingga `a` dan `b` baru sekarang adalah **`0.20104`** dan **`0,63896`**
+`b(t+1) = 0.84175627019338 - 0.01 * (-0.06878289461639) = 0.84792826685549`<br>
+Sehingga `a` dan `b` baru sekarang adalah **`0.064761912079046`** dan **`0.84792826685549`**
 <p>
+**Iterasi ke-1** <br>
+Langkah 1. Nilai bobot iterasi ke-0 `a = 0.064761912079046`, dan `b = 0.84792826685549` <br>
+Langkah 2. Nilai prediksi `Y'`.<br>
+`Y' = 0.064761912079046 + 0.84792826685549 * 0.89731563298296 = 0.82562120157662` <br>
+Langkah 3. Hitung `error` prediksi.<br>
+`error = 0.82562120157662 - 0.88198757763975 = -0.056366376063128`. <br>
+Langkah 4. Update bobot `a` (_intercept_) dan `b` (_slope_)<br>
+`a(t+1) = a(t) - r * error`<br>
+`a(t+1) = 0.064761912079046 - 0.01 * (-0.056366376063128) = 0.070398549685359`<br>
+`b(t+1) = b(t) - r * error`<br>
+`b(t+1) = 0.84792826685549 - 0.01 * (-0.056366376063128) = 0.8529861098971`<br>
+Sehingga `a` dan `b` baru sekarang adalah **`0.070398549685359`** dan **`0.8529861098971`**.<br>
+Perubahan error:<br>
+Iterasi ke- | Error) | Perubahan (%) 
+------------ | ------------- | -------------
+0 |  -0.068782894616399 | 0
+1 |  -0.056366376063128 | 0
+<p>
+**Iterasi ke-2** <br>
+Langkah 1. Nilai bobot iterasi ke-0 `a = 0.064761912079046`, dan `b = 0.84792826685549` <br>
+Langkah 2. Nilai prediksi `Y'`.<br>
+`Y' = 0.064761912079046 + 0.84792826685549 * 0.89731563298296 = 0.82562120157662` <br>
+Langkah 3. Hitung `error` prediksi.<br>
+`error = 0.82562120157662 - 0.88198757763975 = -0.056366376063128`. <br>
+Langkah 4. Update bobot `a` (_intercept_) dan `b` (_slope_)<br>
+`a(t+1) = a(t) - r * error`<br>
+`a(t+1) = 0.064761912079046 - 0.01 * (-0.056366376063128) = 0.070398549685359`<br>
+`b(t+1) = b(t) - r * error`<br>
+`b(t+1) = 0.84792826685549 - 0.01 * (-0.056366376063128) = 0.8529861098971`<br>
+Sehingga `a` dan `b` baru sekarang adalah **`0.070398549685359`** dan **`0.8529861098971`**.<br>
+Perubahan error:<br>
+Iterasi ke- | Error) | Perubahan (%) 
+------------ | ------------- | -------------
+0 |  -0.068782894616399 | 0
+1 |  -0.056366376063128 | 0
+
+
 Langkah 4. Ulangi Langkah 2-4 dengan menggunakan `a` dan `b` terbaru sebanyak 20 kali iterasi.
   
 ## Unduh dataset
