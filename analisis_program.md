@@ -13,5 +13,6 @@ Program perlu dianalisis karena untuk memastikan dua hal, yaitu program yang dib
 2. _Correct_ adalah analisis yang fokus untuk memastikan bahwa program yang dibuat sudah sesuai dengan apa yang seharusnya dilakukan berdasarkan spesifikasi kebutuhan  
 
 ## Bagaimana cara menganalisis program?
+Ada dua jenis analisis program yaitu **analisis statis**, dan **analisis dinamis**.
 
-# Referensi
+## Referensi
