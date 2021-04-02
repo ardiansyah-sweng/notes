@@ -13,6 +13,14 @@ Program perlu dianalisis karena untuk memastikan dua hal, yaitu program yang dib
 2. _Correct_ adalah analisis yang fokus untuk memastikan bahwa program yang dibuat sudah sesuai dengan apa yang seharusnya dilakukan berdasarkan spesifikasi kebutuhan  
 
 ## Bagaimana cara menganalisis program?
-Ada dua jenis analisis program yaitu **analisis statis**, dan **analisis dinamis**.
+Ada dua jenis analisis program yaitu **analisis statis**, dan **analisis dinamis**. <br>
+### Analisis Statis
+Ketika kita membaca _source code_ program langsung lewat IDE, maka ini disebut sebagai analisis statis. Persamaannya mirip dengan ketika kita membaca buku. Karena dibaca langsung, maka ketika membaca program tersebut kita juga harus memahami makna di setiap barisnya. Ini sering disebut sebagai _program comprehension_ atau _code review_.
+Agar program mudah dipahami, maka source code yang ditulis haruslah "ramah manusia". <br>
+Ada 2 hal utama yang dianalisis secara statis: <br>
+1. Control-flow
+2. Data flow
+
+### Analisis Dinamis
 
 ## Referensi
