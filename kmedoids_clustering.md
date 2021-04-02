@@ -16,7 +16,7 @@ _n_ = jumlah data
 
 ## Mengapa `bisecting k-Medoids`?
 Pada algoritma _clustering_ `k-means` dan `k-medoids`, kita diminta untuk menentukan jumlah _cluster_ di awal. Penentuan jumlah _cluster_ dilakukan secara acak/menebak atau menggunakan indeks validitas _clustering_. Kedua teknik tersebut tidak selalu menghasilkan jumlah _cluster_ yang optimal. Untuk mengatasi masalah tersebut, maka digunakanlah prosedur `bisecting` pada `k-medoids`. Pada gambar berikut ditunjukkan ilustrasi bagaimana pembentukan _cluster_ pada algoritma _bisecting_ `k-medoids`.<p>
-![Bisecting k-Medoids](https://github.com/ardiansyah-sweng/notes/blob/main/method-comparison-ilustrasi-bisecting-kmedoids.svg)
+![Bisecting k-Medoids](https://github.com/ardiansyah-sweng/notes/blob/main/images/bisecting_kmedoids_pseudocode.svg)
 
 ## Kapan menggunakan `bisecting ke-Medoids`?
 
@@ -25,7 +25,7 @@ Pada algoritma _clustering_ `k-means` dan `k-medoids`, kita diminta untuk menent
 2. Tentukan _centroid<sub>1</sub>_ (c<sub>1</sub>), dan _centroid<sub>2</sub>_ (c<sub>2</sub>)
 
 ## Pseudocode
-![Bisecting k-Medoids](https://github.com/ardiansyah-sweng/notes/blob/main/bisecting_kmedoids_pseudocode.svg)
+![Bisecting k-Medoids](https://github.com/ardiansyah-sweng/notes/blob/main/images/bisecting_kmedoids_pseudocode.svg)
 
 ## Dataset
 Silakan unduh [`dataset_silhavy.txt`](https://github.com/ardiansyah-sweng/ucwpso/blob/main/silhavy_dataset.txt)
