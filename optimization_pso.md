@@ -2,7 +2,8 @@
 Tulisan ini membahas secara lengkap salah satu algoritma optimasi metaheuristik yaitu Particle Swarm Optimization (PSO). 
 
 ## Apa itu PSO?
-PSO itu sama saja seperti kita mengerahkan satu tim untuk menemukan anak/benda yang hilang. Anak/benda tersebut tidak diketahui posisi/lokasi persisnya, kita cuma tahu perkiraan lokasinya. Tim diberikan batas waktu dalam melakukan pencarian. Di akhir waktu, salah satu anggota tim yang paling dekat dengan target yang dicari dinyatakan sebagai orang yang menemukan objek tersebut.  
+PSO itu sama saja seperti kita mengerahkan satu tim untuk menemukan anak/benda yang hilang. Anak/benda tersebut tidak diketahui posisi/lokasi persisnya, kita cuma tahu perkiraan lokasinya. Tim diberikan batas waktu dalam melakukan pencarian. Di akhir waktu, salah satu anggota tim yang paling dekat dengan target yang dicari dinyatakan sebagai orang yang menemukan objek tersebut. <br>
+Begitulah kira-kira analogi utama cara kerja PSO. Sedangkan secara ilmiah, PSO sendiri ditemukan oleh [3] yang terinspirasi dari segerombolan hewan yang bergerak menemukan makanan seperti ikan dan burung. Bisa Anda baca lengkap di sana.
 
 ## Mengapa PSO?
 ## Bagaimana menggunakan PSO?
@@ -26,4 +27,5 @@ p<sub>ij</sub> = nilai ke-_j_ dari partikel ke-_i_ <br>
 
 # Referensi
 [1] Olorunda, O. and Engelbrecht, A. P. (2008) ‘Measuring exploration/exploitation in particle swarms using swarm diversity’, 2008 IEEE Congress on Evolutionary Computation, CEC 2008, pp. 1128–1134. doi: 10.1109/CEC.2008.4630938. <br>
-[2] Krink, T., Vesterstrom, J. S. and Riget, J. (2002) ‘Particle swarm optimisation with spatial particle extension’, Proceedings of the 2002 Congress on Evolutionary Computation, CEC 2002, 2, pp. 1474–1479. doi: 10.1109/CEC.2002.1004460.
+[2] Krink, T., Vesterstrom, J. S. and Riget, J. (2002) ‘Particle swarm optimisation with spatial particle extension’, Proceedings of the 2002 Congress on Evolutionary Computation, CEC 2002, 2, pp. 1474–1479. doi: 10.1109/CEC.2002.1004460. <br>
+[3] Kennedy, J. and Eberhart, R. (1995) ‘Particle swarm optimization’, in Proceedings of ICNN’95 - International Conference on Neural Networks. IEEE, pp. 1942–1948. doi: 10.1109/ICNN.1995.488968.
