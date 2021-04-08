@@ -10,10 +10,12 @@ Begitulah kira-kira analogi utama cara kerja PSO. Sedangkan secara ilmiah, PSO s
 ## Mengapa PSO?
 ## Kapan menggunakan PSO?
 ## Bagaimana menggunakan PSO?
-Berikut langkah-langkah utama dalam PSO.<br>
-1. Bangkitkan populasi awal <br>
+Sebelum terjun melakukan pencarian, maka perlu dilakukan berbagai persiapan atau istilahnya _setting_ parameter.<br>
+1. Ukuran populasi<br>
    Populasi sama saja dengan tim pencari yang terdiri dari banyak orang seperti analogi di bagian **Apa itu PSO?**. Sedangkan populasi berisi banyak partikel. Untuk itu perlu terlebih dahulu menentukan berapa ukuran populasinya. Anda bisa memilih antara 20-500 partikel [4] atau menentukan sendiri berdasarkan hasil eksperimen awal seperti yang dilakukan [5]. 
-2. 
+2. Iterasi maksimal <br>
+   Iterasi sama saja dengan berapa lama pencarian dilakukan. Dalam prakteknya, iterasi ini adalah berapa kali terjadi perubahan posisi dari setiap partikel dalam rangka menuju ke target yang dituju. Anda bisa memilih iterasi di atas 20, atau menentukan sendiri berdasarkan eksperimen awal seperti yang dilakukan [5].
+3. 
 
 Tahap **eksplorasi** dilakukan pada tahap awal pencarian, kemudian secara bertahap/perlahan melakukan tahap **eksploitasi** terhadap solusi terbaik yang ditemukan. Baik eksplorasi maupun eksploitasi harus dilakukan secara seimbang.
 
