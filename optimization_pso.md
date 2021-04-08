@@ -1,4 +1,11 @@
 # Particle Swarm Optimization
+Tulisan ini membahas secara lengkap salah satu algoritma optimasi metaheuristik yaitu Particle Swarm Optimization (PSO). 
+
+## Apa itu PSO?
+PSO itu sama saja seperti kita mengerahkan satu tim untuk menemukan anak/benda yang hilang. Anak/benda tersebut tidak diketahui posisi/lokasi persisnya, kita cuma tahu perkiraan lokasinya. Tim diberikan batas waktu dalam melakukan pencarian. Di akhir waktu, salah satu anggota tim yang paling dekat dengan target yang dicari dinyatakan sebagai orang yang menemukan objek tersebut.  
+
+## Mengapa PSO?
+## Bagaimana menggunakan PSO?
 
 Tahap **eksplorasi** dilakukan pada tahap awal pencarian, kemudian secara bertahap/perlahan melakukan tahap **eksploitasi** terhadap solusi terbaik yang ditemukan. Baik eksplorasi maupun eksploitasi harus dilakukan secara seimbang.
 
