@@ -1,4 +1,6 @@
 # Particle Swarm Optimization
+Prasyarat: `optimasi`, `array`, `loop` <p>
+
 Tulisan ini membahas secara lengkap salah satu algoritma optimasi metaheuristik yaitu Particle Swarm Optimization (PSO). 
 
 ## Apa itu PSO?
