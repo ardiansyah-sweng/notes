@@ -10,5 +10,12 @@ Diversity adalah ukuran atau tingkat dispersi (sebaran) partikel dalam _swarm_ [
 Jarak ke rerata titik <br>
 <a href="https://www.codecogs.com/eqnedit.php?latex=diversity(S)=\frac{1}{\left&space;|&space;S&space;\right&space;|}.\sum_{i=1}^{\left&space;|&space;S&space;\right&space;|}{\sqrt{\sum_{j=1}^{N}(p_i_j-\bar{p}_j)^2&space;}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?diversity(S)=\frac{1}{\left&space;|&space;S&space;\right&space;|}.\sum_{i=1}^{\left&space;|&space;S&space;\right&space;|}{\sqrt{\sum_{j=1}^{N}(p_i_j-\bar{p}_j)^2&space;}}" title="diversity(S)=\frac{1}{\left | S \right |}.\sum_{i=1}^{\left | S \right |}{\sqrt{\sum_{j=1}^{N}(p_i_j-\bar{p}_j)^2 }}" /></a>
 
+dengan:<br>
+S = populasi <br>
+|S| = ukuran _swarm_ <br>
+N = ukuran dimensi masalah <br>
+p<sub>ij</sub> = nilai ke-_j_ dari partikel ke-_i_ <br>
+
+
 # Referensi
 [1] Olorunda, O. and Engelbrecht, A. P. (2008) ‘Measuring exploration/exploitation in particle swarms using swarm diversity’, 2008 IEEE Congress on Evolutionary Computation, CEC 2008, pp. 1128–1134. doi: 10.1109/CEC.2008.4630938.
