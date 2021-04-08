@@ -8,7 +8,11 @@ PSO itu sama saja seperti kita mengerahkan satu tim untuk menemukan anak/benda y
 Begitulah kira-kira analogi utama cara kerja PSO. Sedangkan secara ilmiah, PSO sendiri ditemukan oleh [3] yang terinspirasi dari segerombolan hewan yang bergerak menemukan makanan seperti ikan dan burung. Bisa Anda baca lengkap di sana.
 
 ## Mengapa PSO?
+## Kapan menggunakan PSO?
 ## Bagaimana menggunakan PSO?
+Berikut langkah-langkah utama dalam PSO.<br>
+1. Bangkitkan partikel awal
+2. 
 
 Tahap **eksplorasi** dilakukan pada tahap awal pencarian, kemudian secara bertahap/perlahan melakukan tahap **eksploitasi** terhadap solusi terbaik yang ditemukan. Baik eksplorasi maupun eksploitasi harus dilakukan secara seimbang.
 
