@@ -7,7 +7,7 @@ Premature convergence adalah salah satu kelemahan dari PSO. Premature convergenc
 Diversity adalah ukuran atau tingkat dispersi (sebaran) partikel dalam _swarm_ [1]. Sebaran ini bisa ditentukan di sekitar titik pusat, atau tidak. Dispersi jug abisa ditentukan berdasarkan **posisi** atau _velocity_ partikel. Diversity berperan penting, karena agar bisa memastikan partikel eksplorasi dan eksploitasi dengan baik. Diversity partikel yang rendah mengakibatkan partikel akan fokus pencarian solusi pada area yang sempit. 
 
 ## Ukuran Diversity
-Jarak ke rerata titik <br>
+Ukuran Diversity pertama kali diusulkan oleh [2]. Jarak ke rerata titik <br>
 <a href="https://www.codecogs.com/eqnedit.php?latex=diversity(S)=\frac{1}{\left&space;|&space;S&space;\right&space;|}.\sum_{i=1}^{\left&space;|&space;S&space;\right&space;|}{\sqrt{\sum_{j=1}^{N}(p_i_j-\bar{p}_j)^2&space;}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?diversity(S)=\frac{1}{\left&space;|&space;S&space;\right&space;|}.\sum_{i=1}^{\left&space;|&space;S&space;\right&space;|}{\sqrt{\sum_{j=1}^{N}(p_i_j-\bar{p}_j)^2&space;}}" title="diversity(S)=\frac{1}{\left | S \right |}.\sum_{i=1}^{\left | S \right |}{\sqrt{\sum_{j=1}^{N}(p_i_j-\bar{p}_j)^2 }}" /></a>
 
 dengan:<br>
@@ -18,4 +18,5 @@ p<sub>ij</sub> = nilai ke-_j_ dari partikel ke-_i_ <br>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\bar{p}_j" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\bar{p}_j" title="\bar{p}_j" /></a> = nilai ke-_j_ dari rerata titik <a href="https://www.codecogs.com/eqnedit.php?latex=\bar{p}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\bar{p}" title="\bar{p}" /></a>
 
 # Referensi
-[1] Olorunda, O. and Engelbrecht, A. P. (2008) ‘Measuring exploration/exploitation in particle swarms using swarm diversity’, 2008 IEEE Congress on Evolutionary Computation, CEC 2008, pp. 1128–1134. doi: 10.1109/CEC.2008.4630938.
+[1] Olorunda, O. and Engelbrecht, A. P. (2008) ‘Measuring exploration/exploitation in particle swarms using swarm diversity’, 2008 IEEE Congress on Evolutionary Computation, CEC 2008, pp. 1128–1134. doi: 10.1109/CEC.2008.4630938. <br>
+[2] Krink, T., Vesterstrom, J. S. and Riget, J. (2002) ‘Particle swarm optimisation with spatial particle extension’, Proceedings of the 2002 Congress on Evolutionary Computation, CEC 2002, 2, pp. 1474–1479. doi: 10.1109/CEC.2002.1004460.
