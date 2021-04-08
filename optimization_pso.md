@@ -15,7 +15,7 @@ S = populasi <br>
 |S| = ukuran _swarm_ <br>
 N = ukuran dimensi masalah <br>
 p<sub>ij</sub> = nilai ke-_j_ dari partikel ke-_i_ <br>
-<a href="https://www.codecogs.com/eqnedit.php?latex=\bar{p}_j" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\bar{p}_j" title="\bar{p}_j" /></a> = rerata dimensi ke-_j_ <a href="https://www.codecogs.com/eqnedit.php?latex=\bar{p}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\bar{p}" title="\bar{p}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\bar{p}_j" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\bar{p}_j" title="\bar{p}_j" /></a> = rerata dimensi ke-_j_
 
 # Referensi
 [1] Olorunda, O. and Engelbrecht, A. P. (2008) ‘Measuring exploration/exploitation in particle swarms using swarm diversity’, 2008 IEEE Congress on Evolutionary Computation, CEC 2008, pp. 1128–1134. doi: 10.1109/CEC.2008.4630938. <br>
