@@ -9,7 +9,7 @@ Seperti halnya di dunia nyata, pencarian tentu saja menuntut para pencari untuk 
 Begitulah kira-kira analogi utama cara kerja PSO. Sedangkan secara ilmiah, PSO sendiri ditemukan oleh [3] yang terinspirasi dari segerombolan hewan yang bergerak menemukan makanan seperti ikan dan burung. Bisa Anda baca lengkap di sana. 
 
 ## Cara kerja PSO
-Cara kerja PSO sebenarnya sederhana, setiap partikel akan bergerak menuju ke target pencarian. Karena bergerak, maka terjadi perpindahan dari posisi lama ke posisi baru. Perpindahan tersebut juga karena kecepatan (_velocity_). Sehingga formulanya seperti berikut: <p>
+Cara kerja PSO sebenarnya sederhana, setiap partikel akan bergerak menuju ke target pencarian. Karena bergerak, maka terjadi perpindahan dari posisi lama ke posisi baru. Perpindahan tersebut juga karena kecepatan (_velocity_). Sehingga formulanya seperti `Persamaan 1` berikut: <p>
 <a href="https://www.codecogs.com/eqnedit.php?latex=v(t&plus;1)&space;=&space;\omega&space;v(t)&plus;C_1R_1(Pbest_i-x_i)&plus;C_2R_2(Gbest_i-x_i)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?v(t&plus;1)&space;=&space;\omega&space;v(t)&plus;C_1R_1(Pbest_i-x_i)&plus;C_2R_2(Gbest_i-x_i)" title="v(t+1) = \omega v(t)+C_1R_1(Pbest_i-x_i)+C_2R_2(Gbest_i-x_i)" /></a>
 
 dengan: <br>
@@ -23,7 +23,7 @@ x<sub>i</sub> = Posisi partikel saat ini <br>
 R<sub>1</sub> dan R<sub>2</sub> = nilai acak antara [0,1] <br>
 Gbest<sub>i</sub> = Posisi terbaik dari seluruh partikel
 <p>
-Bobot inersia ditentukan sebagai berikut <p>
+Bobot inersia ditentukan pada `Persamaan 2` berikut: <p>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\omega(t)&space;=&space;\omega_{max}&plus;\frac{(\omega_{max}-\omega_{min}).t}{T_{max}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\omega(t)&space;=&space;\omega_{max}&plus;\frac{(\omega_{max}-\omega_{min}).t}{T_{max}}" title="\omega(t) = \omega_{max}+\frac{(\omega_{max}-\omega_{min}).t}{T_{max}}" /></a>
 
 dengan: <br>
@@ -33,7 +33,7 @@ dengan: <br>
 _t_ = iterasi saat ini<br>
 _T<sub>max</sub>_ = Iterasi maksimum <p>
    
-Setelah diperoleh _velocity_ baru, maka partikel bisa memperbarui posisinya dengan formula: <br>
+Setelah diperoleh _velocity_ baru, maka partikel bisa memperbarui posisinya dengan `Persamaan 3` berikut: <p>
 <a href="https://www.codecogs.com/eqnedit.php?latex=x(t&plus;1)&space;=&space;x_t&plus;v(t&plus;1)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?x(t&plus;1)&space;=&space;x_t&plus;v(t&plus;1)" title="x(t+1) = x_t+v(t+1)" /></a>
 
 dengan: <br>
