@@ -8,6 +8,21 @@ PSO itu sama saja seperti kita mengerahkan satu tim untuk menemukan anak/benda y
 Seperti halnya di dunia nyata, pencarian tentu saja menuntut para pencari untuk bergerak atau berpindah dari posisi yang berbeda-beda. Setiap anggota/partikel dibekali informasi terkait posisi terkini masing-masing temannya. Sehingga bisa diketahui mana posisi teman yang paling dekat dengan target. Begitu pula, setiap anggota memiliki histori informasi posisi di setiap perpindahannya selama ini. <br>
 Begitulah kira-kira analogi utama cara kerja PSO. Sedangkan secara ilmiah, PSO sendiri ditemukan oleh [3] yang terinspirasi dari segerombolan hewan yang bergerak menemukan makanan seperti ikan dan burung. Bisa Anda baca lengkap di sana. 
 
+## Cara kerja PSO
+Cara kerja PSO sebenarnya sederhana, setiap partikel akan bergerak menuju ke target pencarian. Karena bergerak, maka terjadi perpindahan dari posisi lama ke posisi baru. Perpindahan tersebut juga karena kecepatan (_velocity_). Sehingga formulanya seperti berikut: <p>
+<a href="https://www.codecogs.com/eqnedit.php?latex=v(t&plus;1)&space;=&space;\omega&space;v(t)&plus;C_1R_1(Pbest_i-x_i)&plus;C_2R_2(Gbest_i-x_i)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?v(t&plus;1)&space;=&space;\omega&space;v(t)&plus;C_1R_1(Pbest_i-x_i)&plus;C_2R_2(Gbest_i-x_i)" title="v(t+1) = \omega v(t)+C_1R_1(Pbest_i-x_i)+C_2R_2(Gbest_i-x_i)" /></a>
+
+dengan: <br>
+v<sub>i</sub>(t+1) = velocity baru partikel ke-_i_ <br>
+v<sub>i</sub> = velocity saat ini. Ketika v<sub>0</sub>, nilainya diambil acak antara [0,1] <br>
+&omega; = bobot inersia <br>
+C<sub>1</sub> = Faktor pembelajaran kognitif <br>
+C<sub>2</sub> = Faktor pembelajaran sosial <br>
+Pbest<sub>i</sub> = Posisi terbaik yang pernah diperoleh setiap partikel <br>
+x<sub>i</sub> = Posisi partikel saat ini <br>
+R<sub>1</sub> dan R<sub>2</sub> = nilai acak antara [0,1] <br>
+Gbest<sub>i</sub> = Posisi terbaik dari seluruh partikel
+
 ## Mengapa PSO?
 ## Kapan menggunakan PSO?
 ## Bagaimana menggunakan PSO?
