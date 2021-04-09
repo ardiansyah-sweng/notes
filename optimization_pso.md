@@ -52,8 +52,9 @@ Sebelum terjun melakukan pencarian, maka perlu dilakukan berbagai persiapan atau
    Iterasi sama saja dengan berapa lama pencarian dilakukan. Dalam prakteknya, iterasi ini adalah berapa kali terjadi perubahan posisi dari setiap partikel dalam rangka menuju ke target yang dituju. Anda bisa memilih iterasi di atas 20, atau menentukan sendiri berdasarkan eksperimen awal seperti yang dilakukan [5].
 3. Faktor pembelajaran (_learning factors_) <br>
    Sebagaimana manusia, kita akan belajar atas keberhasilan di masa lampau, dan juga belajar dari keberhasilan orang lain di masa lalu. Begitu pula pada PSO, ada dua faktor pembelajaran yaitu faktor pembelajaran kognitif (C<sub>1</sub>) dan faktor pembelajaran sosial (C<sub>2</sub>). Nilai C<sub>1</sub> dan C<sub>2</sub> berupa konstan yaitu 2 (C<sub>1</sub>=C<sub>2</sub>=2).
-4. 
 
+Setelah _setting_ parameter disiapkan, maka perjuangan pencarian target bisa mulai dilaksanakan. <br>
+Langkah pertama adalah menerjunkan tim atau partikel ke area pencarian. Sebagaimana halnya operasi pencarian, maka setiap anggota akan diterjunkan ke aera/wilayah yang dianggap merupakan tempat target bersembunyi/terletak. Karena di awal pencarian belum ada gambaran di mana target tersembunyi maka seluruh anggota akan berpencar ke titik-titik lokasi awal yang berbeda-beda. Perlu diingat bahwa semakin berbeda titik lokasi penempatan antaranggota satu dengan yang lain maka akan semakin baik. Karena hal ini bisa semakin memperbesar peluang menemukan target. Coba bayangkan saja jika satu tim diterjunkan pada titik lokasi yang hampir sama/berdekatan, tentu peluang untuk menemukan target menjadi kecil, karena bisa saja target berada jauh dari titik penerjunan tersebut. Tahap awal pencarian ini disebut sebagai tahap eksplorasi. <p>
 Tahap **eksplorasi** dilakukan pada tahap awal pencarian, kemudian secara bertahap/perlahan melakukan tahap **eksploitasi** terhadap solusi terbaik yang ditemukan. Baik eksplorasi maupun eksploitasi harus dilakukan secara seimbang.
 
 ## Kelemahan PSO
