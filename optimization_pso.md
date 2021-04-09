@@ -22,6 +22,16 @@ Pbest<sub>i</sub> = Posisi terbaik yang pernah diperoleh setiap partikel <br>
 x<sub>i</sub> = Posisi partikel saat ini <br>
 R<sub>1</sub> dan R<sub>2</sub> = nilai acak antara [0,1] <br>
 Gbest<sub>i</sub> = Posisi terbaik dari seluruh partikel
+<p>
+Bobot inersia ditentukan sebagai berikut <p>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\omega(t)&space;=&space;\omega_{max}&plus;\frac{(\omega_{max}-\omega_{min}).t}{T_{max}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\omega(t)&space;=&space;\omega_{max}&plus;\frac{(\omega_{max}-\omega_{min}).t}{T_{max}}" title="\omega(t) = \omega_{max}+\frac{(\omega_{max}-\omega_{min}).t}{T_{max}}" /></a>
+
+dengan: <br>
+&omega;(_t_) = bobot inersia iterasi ke-_t_ <br>
+&omega;<sub>_max_</sub> = inersia maksimum yaitu 0.9<br>
+&omega;<sub>_min_</sub> = inersia minimum yaitu 0.4<br>
+_t_ = iterasi saat ini<br>
+_T<sub>max</sub>_ = Iterasi maksumum
 
 ## Mengapa PSO?
 ## Kapan menggunakan PSO?
