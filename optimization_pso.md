@@ -1,10 +1,10 @@
 # Particle Swarm Optimization
 Prasyarat: `optimasi`, `array`, `loop` <p>
 
-Tulisan ini membahas secara lengkap salah satu algoritma optimasi metaheuristik yaitu Particle Swarm Optimization (PSO). 
+Tulisan ini membahas secara lengkap salah satu algoritma optimasi metaheuristik yaitu Particle Swarm Optimization (PSO). Perlu diingat kembali, bahwa sebagai optimasi metaheuristik, PSO tidak menjanjikan hasil yang deterministik/pasti/_exact_, melainkan perkiraan hasil yang terbaik mendekati.
 
 ## Apa itu PSO?
-PSO itu sama saja seperti kita mengerahkan satu tim untuk menemukan anak/benda yang hilang. Anak/benda tersebut tidak diketahui posisi/lokasi persisnya, kita cuma tahu perkiraan lokasinya. Tim diberikan batas waktu dalam melakukan pencarian. Di akhir waktu, salah satu anggota tim yang paling dekat dengan target yang dicari dinyatakan sebagai orang yang menemukan objek tersebut. <br>
+PSO itu sama saja seperti kita mengerahkan satu tim untuk menemukan anak/benda yang hilang. Anak/benda tersebut tidak diketahui posisi/lokasi persisnya, kita cuma tahu perkiraan lokasinya. Setiap anggota memiliki peluang/kesempatan yang sama untuk menemukan target. Tim diberikan batas waktu dalam melakukan pencarian. Di akhir waktu, salah satu anggota tim yang paling dekat dengan target yang dicari dinyatakan sebagai anggota terbaik yang menemukan objek tersebut. <br>
 Seperti halnya di dunia nyata, pencarian tentu saja menuntut para pencari untuk bergerak atau berpindah dari posisi yang berbeda-beda. Setiap anggota/partikel dibekali informasi terkait posisi terkini masing-masing temannya. Sehingga bisa diketahui mana posisi teman yang paling dekat dengan target. Begitu pula, setiap anggota memiliki histori informasi posisi di setiap perpindahannya selama ini. <br>
 Begitulah kira-kira analogi utama cara kerja PSO. Sedangkan secara ilmiah, PSO sendiri ditemukan oleh [3] yang terinspirasi dari segerombolan hewan yang bergerak menemukan makanan seperti ikan dan burung. Bisa Anda baca lengkap di sana. 
 
