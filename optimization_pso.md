@@ -1,5 +1,5 @@
 # Particle Swarm Optimization
-Prasyarat: `optimasi`, `array`, `loop` <p>
+Prasyarat: `optimasi`, `array`, `loop`,  `vektor` <p>
 
 Tulisan ini membahas secara lengkap salah satu algoritma optimasi metaheuristik yaitu Particle Swarm Optimization (PSO). Perlu diingat kembali, bahwa sebagai optimasi metaheuristik, PSO tidak menjanjikan hasil yang deterministik/pasti/_exact_, melainkan perkiraan hasil yang terbaik mendekati.
 
@@ -16,7 +16,9 @@ Sebelum terjun melakukan pencarian, maka perlu dilakukan berbagai persiapan atau
    Populasi sama saja dengan tim pencari yang terdiri dari banyak orang seperti analogi di bagian **Apa itu PSO?**. Sedangkan populasi berisi banyak partikel. Untuk itu perlu terlebih dahulu menentukan berapa ukuran populasinya. Anda bisa memilih antara 20-500 partikel [4] atau menentukan sendiri berdasarkan hasil eksperimen awal seperti yang dilakukan [5]. 
 2. Iterasi maksimal <br>
    Iterasi sama saja dengan berapa lama pencarian dilakukan. Dalam prakteknya, iterasi ini adalah berapa kali terjadi perubahan posisi dari setiap partikel dalam rangka menuju ke target yang dituju. Anda bisa memilih iterasi di atas 20, atau menentukan sendiri berdasarkan eksperimen awal seperti yang dilakukan [5].
-3. 
+3. Faktor pembelajaran (_learning factors_) <br>
+   Sebagaimana manusia, kita akan belajar atas keberhasilan di masa lampau, dan juga belajar dari keberhasilan orang lain di masa lalu. Begitu pula pada PSO, ada dua faktor pembelajaran yaitu faktor pembelajaran kognitif (C<sub>1</sub>) dan faktor pembelajaran sosial (C<sub>2</sub>). Nilai C<sub>1</sub> dan C<sub>2</sub> berupa konstan yaitu 2 (C<sub>1</sub>=C<sub>2</sub>=2).
+4. 
 
 Tahap **eksplorasi** dilakukan pada tahap awal pencarian, kemudian secara bertahap/perlahan melakukan tahap **eksploitasi** terhadap solusi terbaik yang ditemukan. Baik eksplorasi maupun eksploitasi harus dilakukan secara seimbang.
 
