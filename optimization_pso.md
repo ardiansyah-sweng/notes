@@ -31,7 +31,16 @@ dengan: <br>
 &omega;<sub>_max_</sub> = inersia maksimum yaitu 0.9<br>
 &omega;<sub>_min_</sub> = inersia minimum yaitu 0.4<br>
 _t_ = iterasi saat ini<br>
-_T<sub>max</sub>_ = Iterasi maksumum
+_T<sub>max</sub>_ = Iterasi maksimum <p>
+   
+Setelah diperoleh _velocity_ baru, maka partikel bisa memperbarui posisinya dengan formula: <br>
+<a href="https://www.codecogs.com/eqnedit.php?latex=x(t&plus;1)&space;=&space;x_t&plus;v(t&plus;1)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?x(t&plus;1)&space;=&space;x_t&plus;v(t&plus;1)" title="x(t+1) = x_t+v(t+1)" /></a>
+
+dengan: <br>
+x(_t_+1) = posisi terbaru partikel <br>
+x(_t_) = posisi partikel saat ini <br>
+v(_t_+1) = velocity terbaru <br>
+_t_ = iterasi saat ini 
 
 ## Mengapa PSO?
 ## Kapan menggunakan PSO?
