@@ -43,11 +43,11 @@ G<sub>i</sub> = Nilai instrumen ke-_i_
 ### Estimasi Effort
 <a href="https://www.codecogs.com/eqnedit.php?latex=Effort=UCP*PF" target="_blank"><img src="https://latex.codecogs.com/svg.latex?Effort=UCP*PF" title="Effort=UCP*PF" /></a>
 <p>
-Satuan estimasi effort adalah _person/hours_ untuk setiap 1 UCP. Productivity factor (PF) bisa ditentukan dengan berbagai macam cara:<br>
+Satuan estimasi effort adalah _person/hours_ untuk setiap 1 UCP. Productivity factor (PF) bisa ditentukan dengan berbagai macam cara <br>
 1. Menggunakan PF standar Karner yaitu 20
 2. 8.2 person-hours/UCP [2]
 3. Memproses _learning productivity ratio_ sendiri terlebih dahulu seperti yang dilakukan [1]
-
+<br>
 Sebagai saran, gunakan PF 20 jika kita belum memiliki data histori proyek, atau data histori masih sedikit (1-3)
 
 ## Referensi
