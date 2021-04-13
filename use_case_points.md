@@ -5,6 +5,7 @@
 
 ## Bagaimana menggunakan Use Case Points?
 ###  Pembobotan _Actor_
+Persamaan (1) <p>
 <a href="https://www.codecogs.com/eqnedit.php?latex=UAW=\sum_{i=1}^{3}W_i*A_i" target="_blank"><img src="https://latex.codecogs.com/svg.latex?UAW=\sum_{i=1}^{3}W_i*A_i" title="UAW=\sum_{i=1}^{3}W_i*A_i" /></a>
 <p>
   
@@ -13,6 +14,7 @@ W<sub>i</sub> = bobot aktor. Simple = 1, Average = 2, Complex = 3 <br>
 A<sub>i</sub> = jumlah aktor pada diagram use case
 
 ### Unadjusted Use Case Weighting (UUCW)
+Persamaan (2) <p>
 <a href="https://www.codecogs.com/eqnedit.php?latex=UUCW=\sum_{i=1}^{3}W_i*UC_i" target="_blank"><img src="https://latex.codecogs.com/svg.latex?UUCW=\sum_{i=1}^{3}W_i*UC_i" title="UUCW=\sum_{i=1}^{3}W_i*UC_i" /></a>
 <p>
 dengan: <br>
@@ -20,9 +22,11 @@ W<sub>i</sub> = bobot use case. Simple = 5, Average = 10, Complex = 15 <br>
 UC<sub>i</sub> = jumlah transaksi berdasarkan diagram spesifikasi use case
 
 ### Unadjusted Use Case Points (UUCP)
+Persamaan (3) <p>
 <a href="https://www.codecogs.com/eqnedit.php?latex=UUCP=UAW&plus;UUCW" target="_blank"><img src="https://latex.codecogs.com/svg.latex?UUCP=UAW&plus;UUCW" title="UUCP=UAW+UUCW" /></a>
 
 ### Technical Complexity Factors (TCF)
+Persamaan (4) <p>
 <a href="https://www.codecogs.com/eqnedit.php?latex=TCF=0.6&plus;\left&space;(&space;0.01*\sum_{i=1}^{13}W_i*G_i&space;\right&space;)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?TCF=0.6&plus;\left&space;(&space;0.01*\sum_{i=1}^{13}W_i*G_i&space;\right&space;)" title="TCF=0.6+\left ( 0.01*\sum_{i=1}^{13}W_i*G_i \right )" /></a>
 <p>
 
@@ -31,6 +35,7 @@ W<sub>i</sub> = Bobot instrumen ke-_i_ <br>
 G<sub>i</sub> = Nilai instrumen ke-_i_
 
 ### Environmental Complexity Factors (ECF)
+Persamaan (5) <p>
 <a href="https://www.codecogs.com/eqnedit.php?latex=ECF=1.4&plus;\left&space;(-0.03*\sum_{i=1}^{8}W_i*G_i&space;\right&space;)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?ECF=1.4&plus;\left&space;(-0.03*\sum_{i=1}^{8}W_i*G_i&space;\right&space;)" title="ECF=1.4+\left (-0.03*\sum_{i=1}^{8}W_i*G_i \right )" /></a>
 <p>
   dengan:<br>
@@ -38,9 +43,11 @@ G<sub>i</sub> = Nilai instrumen ke-_i_
   G<sub>i</sub> = Nilai instrumen ke-_i_
   
 ### UCP  
+Persamaan (6) <p>
 <a href="https://www.codecogs.com/eqnedit.php?latex=UCP=UUCP*TCF*ECF" target="_blank"><img src="https://latex.codecogs.com/svg.latex?UCP=UUCP*TCF*ECF" title="UCP=UUCP*TCF*ECF" /></a>
 
 ### Estimasi Effort
+Persamaan (7) <p>
 <a href="https://www.codecogs.com/eqnedit.php?latex=Effort=UCP*PF" target="_blank"><img src="https://latex.codecogs.com/svg.latex?Effort=UCP*PF" title="Effort=UCP*PF" /></a>
 <p>
 Satuan estimasi effort adalah _person/hours_ untuk setiap 1 UCP. Productivity factor (PF) bisa ditentukan dengan berbagai macam cara: <br>
