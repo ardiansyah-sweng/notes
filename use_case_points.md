@@ -21,7 +21,17 @@ A<sub>i</sub> = jumlah aktor pada diagram use case
 ### Unadjusted Use Case Points (UUCP)
 <a href="https://www.codecogs.com/eqnedit.php?latex=UUCP=UAW&plus;UUCW" target="_blank"><img src="https://latex.codecogs.com/svg.latex?UUCP=UAW&plus;UUCW" title="UUCP=UAW+UUCW" /></a>
 
-### 
+### Technical Complexity Factors (TCF)
+<a href="https://www.codecogs.com/eqnedit.php?latex=TCF=0.6&plus;\left&space;(&space;0.01*\sum_{i=1}^{13}W_i*G_i&space;\right&space;)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?TCF=0.6&plus;\left&space;(&space;0.01*\sum_{i=1}^{13}W_i*G_i&space;\right&space;)" title="TCF=0.6+\left ( 0.01*\sum_{i=1}^{13}W_i*G_i \right )" /></a>
+<p>
+  dengan: <br>
+  W<sub>i</sub> = Bobot instrumen ke-_i_<br>
+  G<sub>i</sub> = Nilai instrumen ke-_i_
 
-
+### Environmental Complexity Factors (ECF)
+<a href="https://www.codecogs.com/eqnedit.php?latex=ECF=1.4&plus;\left&space;(-0.03*\sum_{i=1}^{8}W_i*G_i&space;\right&space;)" target="_blank"><img src="https://latex.codecogs.com/svg.latex?ECF=1.4&plus;\left&space;(-0.03*\sum_{i=1}^{8}W_i*G_i&space;\right&space;)" title="ECF=1.4+\left (-0.03*\sum_{i=1}^{8}W_i*G_i \right )" /></a>
+<p>
+  dengan:<br>
+  W<sub>i</sub> = Bobot instrumen ke-_i_<br>
+  G<sub>i</sub> = Nilai instrumen ke-_i_
 ## Referensi
