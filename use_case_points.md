@@ -42,11 +42,11 @@ A<sub>i</sub> = jumlah aktor pada diagram use case
 <a href="https://www.codecogs.com/eqnedit.php?latex=Effort=UCP*PF" target="_blank"><img src="https://latex.codecogs.com/svg.latex?Effort=UCP*PF" title="Effort=UCP*PF" /></a>
 <p>
 Satuan estimasi effort adalah _person/hours_ untuk setiap 1 UCP. Productivity factor (PF) bisa ditentukan dengan berbagai macam cara:<br>
-  1. Menggunakan PF standar Karner yaitu 20
-  2. 8.2 person-hours/UCP [2]
-  3. Memproses _learning productivity ratio_ sendiri terlebih dahulu seperti yang dilakukan [1]
+1. Menggunakan PF standar Karner yaitu 20
+2. 8.2 person-hours/UCP [2]
+3. Memproses _learning productivity ratio_ sendiri terlebih dahulu seperti yang dilakukan [1]
 Sebagai saran, gunakan PF 20 jika kita belum memiliki data histori proyek, atau data histori masih sedikit (1-3)
 
 ## Referensi
-[1] Azzeh, M. and Nassif, A. B. (2018) ‘Project productivity evaluation in early software effort estimation’, Journal of Software: Evolution and Process, 30(12), pp. 1–12. doi: 10.1002/smr.2110.
+[1] Azzeh, M. and Nassif, A. B. (2018) ‘Project productivity evaluation in early software effort estimation’, Journal of Software: Evolution and Process, 30(12), pp. 1–12. doi: 10.1002/smr.2110. <br>
 [2] Subriadi, Pribadi, A. and Ningrum, P. A. (2014) ‘Critical Review of the Effort Rate Value in Use Case Point Method for Estimating Software Development Effort’, 59(3), pp. 735–744.
