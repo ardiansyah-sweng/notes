@@ -55,7 +55,7 @@ function randomSimpleUCWeight()
 * Min = 7.5     
 * Max = 12.49
 */
-function randomSimpleUCWeight()
+function randomAverageUCWeight()
 {
   $MIN = 7.5;
   $MAX = 12.49;
@@ -71,7 +71,7 @@ function randomSimpleUCWeight()
 * Min = 12.5     
 * Max = 15
 */
-function randomSimpleUCWeight()
+function randomComplexUCWeight()
 {
   $MIN = 12.5;
   $MAX = 15;
