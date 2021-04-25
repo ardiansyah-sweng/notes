@@ -17,5 +17,5 @@ Beberapa hal yang perlu diperhatikan:<br>
 Deskripsi: Menghasilkan suatu program dengan cara menulis kode-kode program sesuai kaidah dan aturan bahasa pemrograman untuk memecahkan masalah-masalah yang diberikan menggunakan algoritma-algoritma tingkat dasar <p>
 
 **RPL (Rekayasa Perangkat Lunak)** <br>
-Deskripsi: Menghasilkan sebuah perangkat lunak yang sesuai dengan spesifikasi yang diinginkan pengguna. Perangkat lunak dikembangkan dengan mengikuti tahapan siklus pengembangan perangkat lunak agar . Perangkat lunak dibangun  menggunakan seperangkat alat bantu pengembangan yang mengakomodasi tahapan 
+Deskripsi: Menghasilkan sebuah perangkat lunak yang memenuhi kebutuhan pengguna. Perangkat lunak dikembangkan mengikuti tahapan siklus pengembangan perangkat lunak dengan menggunakan seperangkat alat bantu yang mengakomodasi kebutuhan pengembang secara individu maupun tim.
  
