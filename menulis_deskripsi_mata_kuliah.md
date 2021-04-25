@@ -14,5 +14,5 @@ Beberapa hal yang perlu diperhatikan:<br>
 
 ## Contoh deskripsi mata kuliah
 **DP (Dasar Pemrograman)** <br> 
-Deskripsi: Menulis kode program sesuai dengan kaidah dan aturan bahasa pemrograman dipakai untuk memecahkan masalah-masalah yang diberikan menggunakan algoritma tingkat dasar <br>
+Deskripsi: Menghasilkan kode program sesuai dengan kaidah dan aturan bahasa pemrograman dipakai untuk memecahkan masalah-masalah yang diberikan menggunakan algoritma-algoritma tingkat dasar <br>
  
