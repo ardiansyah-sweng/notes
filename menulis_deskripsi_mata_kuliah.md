@@ -20,5 +20,5 @@ Deskripsi: Menghasilkan suatu program dengan cara menulis kode-kode program sesu
 Deskripsi: Menghasilkan sebuah perangkat lunak yang memenuhi kebutuhan pengguna. Perangkat lunak dikembangkan mengikuti tahapan siklus pengembangan perangkat lunak dengan menggunakan seperangkat alat bantu yang mengakomodasi kebutuhan pengembang secara individu maupun berkelompok. <p>
 
 **TOP (Teknik Optimasi)** <br>
-Deskripsi: Menganalisis, merancang dan mengimplementasikan algoritma untuk menghasilkan solusi paling optimal terhadap masalah-masalah di bidang transpormasi, pendidikan, bisnis, dan kesehatan
+Deskripsi: Menganalisis, merancang dan mengimplementasikan algoritma untuk menghasilkan solusi paling optimal terhadap masalah-masalah di bidang transportasi, pendidikan, bisnis, keuangan, produksi/manufaktur, dan kesehatan
  
