@@ -17,5 +17,8 @@ Beberapa hal yang perlu diperhatikan:<br>
 Deskripsi: Menghasilkan suatu program dengan cara menulis kode-kode program sesuai kaidah dan aturan bahasa pemrograman untuk memecahkan masalah-masalah yang diberikan menggunakan algoritma-algoritma tingkat dasar <p>
 
 **RPL (Rekayasa Perangkat Lunak)** <br>
-Deskripsi: Menghasilkan sebuah perangkat lunak yang memenuhi kebutuhan pengguna. Perangkat lunak dikembangkan mengikuti tahapan siklus pengembangan perangkat lunak dengan menggunakan seperangkat alat bantu yang mengakomodasi kebutuhan pengembang secara individu maupun tim.
+Deskripsi: Menghasilkan sebuah perangkat lunak yang memenuhi kebutuhan pengguna. Perangkat lunak dikembangkan mengikuti tahapan siklus pengembangan perangkat lunak dengan menggunakan seperangkat alat bantu yang mengakomodasi kebutuhan pengembang secara individu maupun berkelompok. <p>
+
+**TOP (Teknik Optimasi)** <br>
+Deskripsi: Menganalisis, merancang dan mengimplementasikan algoritma untuk menghasilkan solusi paling optimal terhadap masalah-masalah di bidang transpormasi, pendidikan, bisnis, dan kesehatan
  
