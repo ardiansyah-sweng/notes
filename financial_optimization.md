@@ -5,3 +5,5 @@ Optimasi keuangan adalah suatu praktik bisnis yang dilakukan guna menghasilkan p
 agar terus meningkatkan keuntungan (profit) secara konsisten pada jangka pendek, menengah dan panjang tanpa mengenyampingkan aspek etis, legal, dan batasan-batasan yang berlaku di dunia keuangan.
 
 https://www.riverlogic.com/blog/financial-optimization-what-do-you-need-to-succeed-in-2020#:~:text=Financial%20optimization%20for%20businesses%20can,ethical%2C%20legal%20and%20financial%20constraints.
+
+https://www.economicsdiscussion.net/essays/economics/6-important-factors-that-influence-the-demand-of-goods/926
