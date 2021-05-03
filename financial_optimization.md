@@ -9,3 +9,5 @@ https://www.riverlogic.com/blog/financial-optimization-what-do-you-need-to-succe
 https://www.economicsdiscussion.net/essays/economics/6-important-factors-that-influence-the-demand-of-goods/926
 
 https://businessdegrees.uab.edu/blog/5-important-principles-of-modern-accounting/
+
+https://www.researchgate.net/publication/315996401_A_Survey_on_Financial_Applications_of_Metaheuristics
