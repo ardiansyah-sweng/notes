@@ -11,3 +11,6 @@ https://www.economicsdiscussion.net/essays/economics/6-important-factors-that-in
 https://businessdegrees.uab.edu/blog/5-important-principles-of-modern-accounting/
 
 https://www.researchgate.net/publication/315996401_A_Survey_on_Financial_Applications_of_Metaheuristics
+
+TSP Kurir Paket menggunakan PSO<br>
+Parcel items menggunakan GA<br>
