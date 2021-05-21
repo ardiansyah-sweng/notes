@@ -14,3 +14,4 @@ https://www.researchgate.net/publication/315996401_A_Survey_on_Financial_Applica
 
 TSP Kurir Paket menggunakan PSO<br>
 Parcel items menggunakan GA<br>
+Pemilihan mata kuliah maksimum di UT https://youtu.be/MK9JTxw42jk
