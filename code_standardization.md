@@ -28,9 +28,11 @@ Format: `<something>variabel` atau `variabel<something>`<br>
 Contoh: `$studentAge`, `$yearOfEntrance`<br>
 #### Menunjukkan jumlah atau frekuensi <br>
 Format: `<numberOf>something`<br>
-Contoh: `$numberOfRegisteredUser`, atau <br>
+Contoh: `$numberOfRegisteredUser`, atau <p>
+  
 Format: `<something>Count`. <br>
-Contoh: `$studentCount`, atau <br>
+Contoh: `$studentCount`, atau <p>
+  
 Format: `times<something>`. <br>
 Contoh: `$timesViewed`, `$timesVisited`
 
@@ -47,3 +49,22 @@ Contoh: `$squareLengthInCentimeter` <p>
   
 Format: `<something>inDecimal` <br>
 Contoh: `$absoluteErrorInDecimal`, `$discountInDecimal`
+
+### Variabel `array`
+Harus dalam bentuk jamak
+Jika terdiri dari lebih dua kata, maka di awal kata gunakan huruf kecil dengan `camelCase` <br>
+
+#### Array 1-Dimensi
+Contoh: <br>
+`$studentsAge = []` <br>
+`$yearsOfEntrance = []` <br>
+`$numberOfRegisteredUsers = []` <br>
+`$fruitsName = []` <br>
+`$cpuSpeedsInMilisecond = []` <br>
+`$pricesInIDR = []` <br>
+`$squareLengthsInCentimeter = []` <br>
+`$absoluteErrorsInDecimal = []` <br>
+`$temperatureInCelcius = []` <br>
+ 
+#### Array Multidimensi
+
