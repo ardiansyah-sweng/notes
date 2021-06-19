@@ -6,7 +6,10 @@ Gunakan **kata benda** <br>
 Jika terdiri dari lebih dua kata, maka setiap huruf pertama di awal kata, gunakan huruf besar <br>
 Format: `KataBenda`<br>
 Contoh:<br> 
-`Employee`, `BestEmployee`, `SwarmOptimizer`, `RegisteredMember`
+`Employee` <br>
+`BestEmployee` <br> 
+`SwarmOptimizer` <br>
+`RegisteredMember`
 
 ## Penamaan `Method` atau `Function`
 Minimal mengandung satu **kata kerja** <br>
