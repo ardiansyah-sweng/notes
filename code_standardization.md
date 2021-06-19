@@ -37,7 +37,7 @@ Format: `times<something>`. <br>
 Contoh: `$timesViewed`, `$timesVisited`
 
 ### Variabel selain integer
-Usahakan di bagian akhir menunjukkan satuannya <br>
+Usahakan di bagian akhir menunjukkan satuannya atau yang sejenis dengan itu<br>
 Format: `<something>InMilisecond`.<br>
 Contoh: `$cpuSpeedInMilisecond`<p>
   
@@ -50,6 +50,16 @@ Contoh: `$squareLengthInCentimeter` <p>
 Format: `<something>inDecimal` <br>
 Contoh: `$absoluteErrorInDecimal`, `$discountInDecimal`
 
+Jika variabel berasal dari form pada interface <br>
+Format: <formType>namaVariabel <br>
+Contoh: <br>
+`$inputRegistererName` <br>
+`$selectPaymentType` <br>
+`$inputRegistererPassword` <br>
+`$checkboxUserHobby` <br>
+`$textareaUserComments` <br>
+`$inputhiddenUserID` <br>
+ 
 ### Variabel `array`
 Harus dalam bentuk jamak
 Jika terdiri dari lebih dua kata, maka di awal kata gunakan huruf kecil dengan `camelCase` <br>
