@@ -87,3 +87,7 @@ foreach ($collectionOfMyStocsks as $tupleOfMyStocks){
   $tupleOfMyStocks['update'];
 }
 ```
+
+### Variabel temporary
+Untuk perulangan gunakan: `$i`, `$j`, `$k` <br>
+  
