@@ -66,5 +66,24 @@ Contoh: <br>
 `$absoluteErrorsInDecimal = []` <br>
 `$temperatureInCelcius = []` <br>
  
-#### Array Multidimensi
+#### Array 2-Dimensi
+Untuk satu variabel array 2-Dimensi maka di awal kata menggunakan kata `collection`, diikuti dengan nama variabelnya <br>
+Format: `$collection<OfSomething>` <br>
+Contoh: <br>
+`$collectionOfStudents = []` <br>
+`$collectionOfMyStocks = []`
 
+Ketika memanggil setiap elemen di dalam array 2-dimensi, maka penamaan variabelnya adalah di awal kata menggunakan kata `record`, diikuti nama variabelnya<br>
+Format: `$record<OfSomething>`, atau `$tuple<OfSomeThing>` <br>
+Contoh: <br>
+`$recordOfStudents` <br>
+`$recordOfMyStocs` <br>
+`$tupleOfUsers` <p>
+
+Contoh pemakaian: <br>
+```php
+foreach ($collectionOfMyStocsks as $tupleOfMyStocks){
+  $tupleOfMyStocks['price'];
+  $tupleOfMyStocks['update'];
+}
+```
