@@ -1,6 +1,6 @@
 # Menulis Deskripsi Mata Kuliah
 
-##Apa itu Deskripsi Mata Kuliah
+## Apa itu Deskripsi Mata Kuliah
 Deskripsi mata kuliah memberikan informasi singkat terkait mata kuliah yang ditawarkan. Deskripsi yang ditulis dengan baik bisa memberikan gambaran pengalaman belajar yang akan dilalui mahasiswa.
 
 ## Bagaimana Menulis deskripsi mata kuliah?
