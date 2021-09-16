@@ -13,12 +13,14 @@ Beberapa hal yang perlu diperhatikan:<br>
 - hindari penggunaan bahasa _gimmick_, _hype_ atau jargon yang biasa digunakan di dunia pemasaran. Misalnya: "Konsep XYZ merupakan bagian penting dari keberhasilan industi XXX", atau "_mata kuliah ini akan mengubah cara berpikir Anda terhadap segala sesuatu_", "_mata kuliah ini akan membuat Anda menjadi software engineer berpengalaman_"
 
 ## Contoh deskripsi mata kuliah
-**DP (Dasar Pemrograman)** <br> 
+**Daspro (Dasar Pemrograman)** <br> 
 Deskripsi: Menghasilkan suatu program dengan cara menulis kode-kode program sesuai kaidah dan aturan bahasa pemrograman untuk memecahkan masalah-masalah yang diberikan menggunakan algoritma-algoritma tingkat dasar <p>
 
-**RPL (Rekayasa Perangkat Lunak)** <br>
+**Rela (Rekayasa Perangkat Lunak)** <br>
 Deskripsi: Menghasilkan sebuah perangkat lunak yang memenuhi kebutuhan pengguna. Perangkat lunak dikembangkan mengikuti tahapan siklus pengembangan perangkat lunak dengan menggunakan seperangkat alat bantu yang mengakomodasi kebutuhan pengembang secara individu maupun berkelompok. <p>
 
-**TOP (Teknik Optimasi)** <br>
+**Tesi (Teknik Optimasi)** <br>
 Deskripsi: Menganalisis, merancang dan mengimplementasikan algoritma untuk menghasilkan solusi paling optimal terhadap masalah-masalah di bidang transportasi, pendidikan, bisnis, keuangan, produksi/manufaktur, dan kesehatan
- 
+
+**Kuper (Penjaminan Kualitas Perangkat Lunak) ** <br>
+ Deskripsi: Meningkatkan kualitas perangkat lunak dengan melakukan serangkaian pekerjaan investigasi, analisis, dan modifikasi perangkat lunak. 
