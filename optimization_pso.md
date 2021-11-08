@@ -24,7 +24,7 @@ R<sub>1</sub> dan R<sub>2</sub> = nilai acak antara [0,1] <br>
 Gbest<sub>i</sub> = Posisi terbaik dari seluruh partikel
 <p>
 Bobot inersia ditentukan pada `Persamaan 2` berikut: <p>
-<a href="https://www.codecogs.com/eqnedit.php?latex=\omega(t)&space;=&space;\omega_{max}&plus;\frac{(\omega_{max}-\omega_{min}).t}{T_{max}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\omega(t)&space;=&space;\omega_{max}&plus;\frac{(\omega_{max}-\omega_{min}).t}{T_{max}}" title="\omega(t) = \omega_{max}+\frac{(\omega_{max}-\omega_{min}).t}{T_{max}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\omega(t)&space;=&space;\omega_{max}&plus;\frac{(\omega_{max}-\omega_{min}).t}{T_{max}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\omega(t)&space;=&space;\omega_{max}&plus;\frac{(\omega_{max}-\omega_{min}).t}{T_{max}}" title="\omega(t) = \omega_{max}-\frac{(\omega_{max}-\omega_{min}).t}{T_{max}}" /></a>
 
 dengan: <br>
 &omega;(_t_) = bobot inersia iterasi ke-_t_ <br>
