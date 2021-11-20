@@ -7,10 +7,15 @@ Deskripsi mata kuliah memberikan informasi singkat terkait mata kuliah yang dita
 Beberapa hal yang perlu diperhatikan:<br>
 - Fokus pada mahasiswa, bukan dosen atau mata kuliahnya sendiri
 - Gunakan frase, kalimat singkat, berbasis hasil/luaran (_outcome_), deskriptif yang biasanya diawali dengan sebuah kata kerja imperatif atau aktif. Contoh: rancang, membuat, rencana, analisis, menulis, dsb.
-- Ditulis dengan jelas, ringkas, padat, dan mudah dimengerti. Usahakan kurang dari 80 kata
+- Ditulis dengan jelas, ringkas, padat, dan mudah dimengerti. Usahakan antara 80-100 kata
 - Selaras dengan hasil/luaran yang hendak dicapai yang tertera pada garis besar mata kuliah
 - hindari kalimat deskripsi yang mubazir atau berulang, misalnya: "_mata kuliah ini akan..._" atau "_mahasiswa diharapkan untuk..._" 
 - hindari penggunaan bahasa _gimmick_, _hype_ atau jargon yang biasa digunakan di dunia pemasaran. Misalnya: "Konsep XYZ merupakan bagian penting dari keberhasilan industi XXX", atau "_mata kuliah ini akan mengubah cara berpikir Anda terhadap segala sesuatu_", "_mata kuliah ini akan membuat Anda menjadi software engineer berpengalaman_"
+
+## Format Penulisan Deskripsi
+**[WHY?]** Tujuan/rasionalisasi mengapa mata kuliah ini hadir/ada (kalimat pertama) <br>
+**[WHAT?]** Konten utama/prinsip/topik-topik yang akan dipelajari (kalimat kedua dan/atau ketiga) <br>
+**[HOW?]** Kegiatan/bentuk/metode pembelajaran dan pengalaman belajar yang diperoleh/dialami mahasiswa pada mata kuliah ini seperti studi kasus, experiental learning, praktikum, diskusi, dsb (kalimat terakhir) 
 
 ## Contoh deskripsi mata kuliah
 **Daspro (Dasar Pemrograman)** <br> 
@@ -23,4 +28,7 @@ Deskripsi: Menghasilkan sebuah perangkat lunak yang memenuhi kebutuhan pengguna.
 Deskripsi: Menganalisis, merancang dan mengimplementasikan algoritma untuk menghasilkan solusi paling optimal terhadap masalah-masalah di bidang transportasi, pendidikan, bisnis, keuangan, produksi/manufaktur, dan kesehatan. <p>
 
 **Kuper (Penjaminan Kualitas Perangkat Lunak)** <br>
- Deskripsi: Meningkatkan kualitas perangkat lunak dengan melakukan serangkaian pekerjaan investigasi, analisis, dan modifikasi perangkat lunak. 
+ Deskripsi: Menghasilkan perangkat lunak yang berkualitas adalah salah satu tujuan dalam proses rekayasa perangkat lunak dan inherent dalam setiap tahap pengembangannya. Mahasiswa akan mengevaluasi kualitas perangkat lunak dari aspek standarisasi kode program, penerapan design pattern, refactoring serta menjalankan proses pengujian perangkat lunak mengikuti prinsip Software Testing Life Cycle (STLC). Mahasiswa juga terlibat langsung pada pembuatan test case, test scenario, unit testing, integration testing, functional hingga acceptance testing. Melalui teori, praktik menggunakan tools terbaru hingga pembentukan portofolio, mahasiswa secara tidak langsung telah memenuhi tugas-tugas dan pekerjaan yang dibutuhkan oleh industri perangkat lunak saat ini.
+
+## **Referensi** <br>
+https://www.algonquincollege.com/lts/understanding-course-outlines/writing-course-descriptions/
